@@ -16,5 +16,6 @@
 
 import Foundation
 
-var log: [Any] = [Test.init(), Sol_86491().self]
+//var log: [Any] = [Test.init(), Sol_86491().self]
 
+_ = Sol_86491(); _ = Sol_86051()
