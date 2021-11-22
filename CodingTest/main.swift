@@ -18,4 +18,8 @@ import Foundation
 
 //var log: [Any] = [Test.init(), Sol_86491().self]
 
-_ = Sol_86491(); _ = Sol_86051()
+//_ = Sol_86491(); _ = Sol_86051()
+
+// LeetCode
+//print(Sol_Palindrome_number().isPalindrome(1000021))
+

@@ -11,6 +11,7 @@
 		C38D322D271127B800E79497 /* Sol_86491.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D322C271127B800E79497 /* Sol_86491.swift */; };
 		C38D323027112F8200E79497 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D322F27112F8200E79497 /* Log.swift */; };
 		C38D3234271135AF00E79497 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3233271135AF00E79497 /* Test.swift */; };
+		C3E36C8E274B2628000955B7 /* Sol_Palindrome_number.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E36C8D274B2628000955B7 /* Sol_Palindrome_number.swift */; };
 		F4C80A11271AB6DE00CD72C4 /* Sol_86051.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C80A10271AB6DE00CD72C4 /* Sol_86051.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		C38D322C271127B800E79497 /* Sol_86491.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_86491.swift; sourceTree = "<group>"; };
 		C38D322F27112F8200E79497 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		C38D3233271135AF00E79497 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		C3E36C8D274B2628000955B7 /* Sol_Palindrome_number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_Palindrome_number.swift; sourceTree = "<group>"; };
 		F4C80A10271AB6DE00CD72C4 /* Sol_86051.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_86051.swift; sourceTree = "<group>"; };
 		F4C80A14271ABB4800CD72C4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +71,7 @@
 			children = (
 				C33A6F3326EF3534001AC96A /* main.swift */,
 				C38D322F27112F8200E79497 /* Log.swift */,
+				C3E36C8B274B259B000955B7 /* LeetCode */,
 				C38D322B271127AA00E79497 /* Programmers */,
 			);
 			path = CodingTest;
@@ -82,6 +85,14 @@
 				C38D3233271135AF00E79497 /* Test.swift */,
 			);
 			path = Programmers;
+			sourceTree = "<group>";
+		};
+		C3E36C8B274B259B000955B7 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				C3E36C8D274B2628000955B7 /* Sol_Palindrome_number.swift */,
+			);
+			path = LeetCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 				F4C80A11271AB6DE00CD72C4 /* Sol_86051.swift in Sources */,
 				C38D322D271127B800E79497 /* Sol_86491.swift in Sources */,
 				C33A6F3426EF3534001AC96A /* main.swift in Sources */,
+				C3E36C8E274B2628000955B7 /* Sol_Palindrome_number.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
