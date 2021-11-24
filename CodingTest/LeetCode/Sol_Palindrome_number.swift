@@ -13,7 +13,10 @@ class Sol_Palindrome_number {
             return false
         } else {
             //  숫자 각 자리수마다 쪼개기
-            let arr = String(x).map { Int(String($0))! }
+//            let arr = String(x).map { Int(String($0))! }
+            
+            // 위의 쪼개기보다 바로 Array로 나누는것이 더 시간 효율적이다.
+            let arr = Array(String(x))
             
             /// 가우스의 덧셈처럼 양끝의 차가 0이 되면 true이고 그렇지 않으면 false이다.
             /// 매 양끝마다의 차가 0이어야 한다.
