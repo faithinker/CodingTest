@@ -6,6 +6,7 @@
 - 프로그래머스 86491 [최소직사각형](https://programmers.co.kr/learn/courses/30/lessons/86491)
 - 프로그래머스 86051 [없는 숫자 더하기](https://programmers.co.kr/learn/courses/30/lessons/86051)
 - 프로그래머스 12973 실패 [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973)
+- 프로그래머스 81302 [거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302)   - 실패!
 
 
 ------------------------------------------------------------------------------------------------
@@ -13,7 +14,7 @@
 ## LeetCode
 
 - palindrome-number(대칭수) https://leetcode.com/problems/palindrome-number/
-
+- two-sum(두개의 합)  https://leetcode.com/problems/two-sum
 
 
 

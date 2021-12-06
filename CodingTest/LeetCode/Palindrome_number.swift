@@ -1,5 +1,5 @@
 //
-//  Sol_Palindrome_number.swift
+//  Palindrome_number.swift
 //  CodingTest
 //
 //  Created by pineone on 2021/11/22.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Sol_Palindrome_number {
+class Palindrome_number {
     func isPalindrome(_ x: Int) -> Bool {
         if x < 0 {
             return false
