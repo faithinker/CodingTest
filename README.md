@@ -7,6 +7,8 @@
 - 프로그래머스 86051 [없는 숫자 더하기](https://programmers.co.kr/learn/courses/30/lessons/86051)
 - 프로그래머스 12973 실패 [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973)
 - 프로그래머스 81302 [거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302)   - 실패!
+- 프로그래머스 76501 [음양 더하기](https://programmers.co.kr/learn/courses/30/lessons/76501)
+- 프로그래머스 12911 [다음 큰 숫자](https://programmers.co.kr/learn/courses/30/lessons/12911)
 
 
 ------------------------------------------------------------------------------------------------

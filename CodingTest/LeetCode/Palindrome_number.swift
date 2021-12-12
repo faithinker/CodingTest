@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// [palindrome-number] (https://leetcode.com/problems/palindrome-number)
 class Palindrome_number {
     func isPalindrome(_ x: Int) -> Bool {
         if x < 0 {

@@ -31,4 +31,4 @@ import Foundation
 
 // MARK: - 프로그래머스
 //print(Sol_12973().solution("baabaa"))
-
+//print(Sol_12911().solution(78)) // result 83
