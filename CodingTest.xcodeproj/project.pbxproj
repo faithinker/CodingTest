@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05C198382829346E005D8049 /* Sol_92334.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C198372829346E005D8049 /* Sol_92334.swift */; };
+		05C1983A282936F1005D8049 /* Sol_12948.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C19839282936F1005D8049 /* Sol_12948.swift */; };
 		C33A6F3426EF3534001AC96A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A6F3326EF3534001AC96A /* main.swift */; };
 		C33C03ED275D915400124432 /* Two_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C03EC275D915400124432 /* Two_Sum.swift */; };
 		C33C03EF275D924200124432 /* Sol_81302.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C03EE275D924200124432 /* Sol_81302.swift */; };
@@ -33,6 +35,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		05C198372829346E005D8049 /* Sol_92334.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_92334.swift; sourceTree = "<group>"; };
+		05C19839282936F1005D8049 /* Sol_12948.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_12948.swift; sourceTree = "<group>"; };
 		C33A6F3026EF3534001AC96A /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33A6F3326EF3534001AC96A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C33C03EC275D915400124432 /* Two_Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_Sum.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 				C33C03EE275D924200124432 /* Sol_81302.swift */,
 				F48B687A2765E349004CC780 /* Sol_76501.swift */,
 				F48B687D2765FC27004CC780 /* Sol_12911.swift */,
+				05C198372829346E005D8049 /* Sol_92334.swift */,
+				05C19839282936F1005D8049 /* Sol_12948.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -167,6 +173,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05C1983A282936F1005D8049 /* Sol_12948.swift in Sources */,
+				05C198382829346E005D8049 /* Sol_92334.swift in Sources */,
 				C38D323027112F8200E79497 /* Log.swift in Sources */,
 				C38D3234271135AF00E79497 /* Test.swift in Sources */,
 				F4C80A11271AB6DE00CD72C4 /* Sol_86051.swift in Sources */,
