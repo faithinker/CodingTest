@@ -12,6 +12,7 @@
 
 - 프로그래머스 92334 [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334)
 - 프로그래머스 12948 [핸드폰 번호 가리기](https://programmers.co.kr/learn/courses/30/lessons/12948)
+- 프로그래머스 68935 [3진법 뒤집기](https://programmers.co.kr/learn/courses/30/lessons/68935)
 
 ------------------------------------------------------------------------------------------------
 
