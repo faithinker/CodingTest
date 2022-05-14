@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0542318B282F850F00C6E776 /* Baekjoon_5585.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0542318A282F850F00C6E776 /* Baekjoon_5585.swift */; };
 		05C198382829346E005D8049 /* Sol_92334.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C198372829346E005D8049 /* Sol_92334.swift */; };
 		05C1983A282936F1005D8049 /* Sol_12948.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C19839282936F1005D8049 /* Sol_12948.swift */; };
 		C300F4512829F07E000E8624 /* Sol_68935.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300F4502829F07E000E8624 /* Sol_68935.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0542318A282F850F00C6E776 /* Baekjoon_5585.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_5585.swift; sourceTree = "<group>"; };
 		05C198372829346E005D8049 /* Sol_92334.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_92334.swift; sourceTree = "<group>"; };
 		05C19839282936F1005D8049 /* Sol_12948.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_12948.swift; sourceTree = "<group>"; };
 		C300F4502829F07E000E8624 /* Sol_68935.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_68935.swift; sourceTree = "<group>"; };
@@ -65,6 +67,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05423189282F849100C6E776 /* BOJ */ = {
+			isa = PBXGroup;
+			children = (
+				0542318A282F850F00C6E776 /* Baekjoon_5585.swift */,
+			);
+			path = BOJ;
+			sourceTree = "<group>";
+		};
 		C33A6F2726EF3534001AC96A = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +99,7 @@
 				C38D322F27112F8200E79497 /* Log.swift */,
 				C3E36C8B274B259B000955B7 /* LeetCode */,
 				C38D322B271127AA00E79497 /* Programmers */,
+				05423189282F849100C6E776 /* BOJ */,
 			);
 			path = CodingTest;
 			sourceTree = "<group>";
@@ -178,6 +189,7 @@
 			files = (
 				05C1983A282936F1005D8049 /* Sol_12948.swift in Sources */,
 				05C198382829346E005D8049 /* Sol_92334.swift in Sources */,
+				0542318B282F850F00C6E776 /* Baekjoon_5585.swift in Sources */,
 				C300F4512829F07E000E8624 /* Sol_68935.swift in Sources */,
 				C38D323027112F8200E79497 /* Log.swift in Sources */,
 				C38D3234271135AF00E79497 /* Test.swift in Sources */,

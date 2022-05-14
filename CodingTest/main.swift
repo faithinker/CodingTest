@@ -32,3 +32,13 @@ import Foundation
 // MARK: - 프로그래머스
 //print(Sol_12973().solution("baabaa"))
 //print(Sol_12911().solution(78)) // result 83
+
+// MARK: 백준
+// print(Baekjoon_5585())
+// 런해서 예시 입력값을 cmd창에서 직접 입력해야함
+// 백준은 함수명, 입력값과 출력값 모두 작성해줘야 한다.
+
+/*
+ Swift ReadLine https://didu-story.tistory.com/177
+ 추후에 자주쓰는 extension 따로 파일로 만들어서 호출하자!!
+ */
