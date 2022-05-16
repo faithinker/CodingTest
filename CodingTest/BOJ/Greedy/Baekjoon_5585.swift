@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 /// [백준 5585][브론즈2] 거스름돈(https://www.acmicpc.net/problem/5585)
 class Baekjoon_5585 {
     let number = Int(readLine()!)!

@@ -10,6 +10,8 @@
 		0542318B282F850F00C6E776 /* Baekjoon_5585.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0542318A282F850F00C6E776 /* Baekjoon_5585.swift */; };
 		05C198382829346E005D8049 /* Sol_92334.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C198372829346E005D8049 /* Sol_92334.swift */; };
 		05C1983A282936F1005D8049 /* Sol_12948.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C19839282936F1005D8049 /* Sol_12948.swift */; };
+		05DCD37228327E840070B0F7 /* ReadLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DCD37128327E840070B0F7 /* ReadLine.swift */; };
+		05DCD375283284DE0070B0F7 /* Baekjoon_11047.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DCD374283284DE0070B0F7 /* Baekjoon_11047.swift */; };
 		C300F4512829F07E000E8624 /* Sol_68935.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300F4502829F07E000E8624 /* Sol_68935.swift */; };
 		C33A6F3426EF3534001AC96A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A6F3326EF3534001AC96A /* main.swift */; };
 		C33C03ED275D915400124432 /* Two_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C03EC275D915400124432 /* Two_Sum.swift */; };
@@ -40,6 +42,8 @@
 		0542318A282F850F00C6E776 /* Baekjoon_5585.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_5585.swift; sourceTree = "<group>"; };
 		05C198372829346E005D8049 /* Sol_92334.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_92334.swift; sourceTree = "<group>"; };
 		05C19839282936F1005D8049 /* Sol_12948.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_12948.swift; sourceTree = "<group>"; };
+		05DCD37128327E840070B0F7 /* ReadLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadLine.swift; sourceTree = "<group>"; };
+		05DCD374283284DE0070B0F7 /* Baekjoon_11047.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_11047.swift; sourceTree = "<group>"; };
 		C300F4502829F07E000E8624 /* Sol_68935.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_68935.swift; sourceTree = "<group>"; };
 		C33A6F3026EF3534001AC96A /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33A6F3326EF3534001AC96A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -70,9 +74,18 @@
 		05423189282F849100C6E776 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
-				0542318A282F850F00C6E776 /* Baekjoon_5585.swift */,
+				05DCD373283284320070B0F7 /* Greedy */,
 			);
 			path = BOJ;
+			sourceTree = "<group>";
+		};
+		05DCD373283284320070B0F7 /* Greedy */ = {
+			isa = PBXGroup;
+			children = (
+				0542318A282F850F00C6E776 /* Baekjoon_5585.swift */,
+				05DCD374283284DE0070B0F7 /* Baekjoon_11047.swift */,
+			);
+			path = Greedy;
 			sourceTree = "<group>";
 		};
 		C33A6F2726EF3534001AC96A = {
@@ -96,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				C33A6F3326EF3534001AC96A /* main.swift */,
+				05DCD37128327E840070B0F7 /* ReadLine.swift */,
 				C38D322F27112F8200E79497 /* Log.swift */,
 				C3E36C8B274B259B000955B7 /* LeetCode */,
 				C38D322B271127AA00E79497 /* Programmers */,
@@ -194,12 +208,14 @@
 				C38D323027112F8200E79497 /* Log.swift in Sources */,
 				C38D3234271135AF00E79497 /* Test.swift in Sources */,
 				F4C80A11271AB6DE00CD72C4 /* Sol_86051.swift in Sources */,
+				05DCD375283284DE0070B0F7 /* Baekjoon_11047.swift in Sources */,
 				C38D322D271127B800E79497 /* Sol_86491.swift in Sources */,
 				C33C03EF275D924200124432 /* Sol_81302.swift in Sources */,
 				C33A6F3426EF3534001AC96A /* main.swift in Sources */,
 				F48B687B2765E349004CC780 /* Sol_76501.swift in Sources */,
 				C3FBC0EB274DF8C9000983D5 /* Sol_12973.swift in Sources */,
 				F48B687E2765FC27004CC780 /* Sol_12911.swift in Sources */,
+				05DCD37228327E840070B0F7 /* ReadLine.swift in Sources */,
 				C33C03ED275D915400124432 /* Two_Sum.swift in Sources */,
 				C3E36C8E274B2628000955B7 /* Palindrome_number.swift in Sources */,
 			);

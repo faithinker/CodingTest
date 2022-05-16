@@ -42,3 +42,12 @@ import Foundation
  Swift ReadLine https://didu-story.tistory.com/177
  추후에 자주쓰는 extension 따로 파일로 만들어서 호출하자!!
  */
+
+// 그리디 알고리즘 1주일 뿌시기!! : https://www.acmicpc.net/problemset?sort=ac_desc&algo=33
+// 그리디(탐욕) 알고리즘
+
+/// [백준 11399][실버3] ATM(https://www.acmicpc.net/problem/11399)
+
+/// [백준 1946][실버1] 신입사원(https://www.acmicpc.net/problem/1946)
+
+/// [백준 1715][골드4] 카드 정렬하기(https://www.acmicpc.net/problem/1715)
