@@ -45,5 +45,3 @@ import Foundation
 
 // 그리디 알고리즘 1주일 뿌시기!! : https://www.acmicpc.net/problemset?sort=ac_desc&algo=33
 // 그리디(탐욕) 알고리즘
-
-/// [백준 1715][골드4] 카드 정렬하기(https://www.acmicpc.net/problem/1715)

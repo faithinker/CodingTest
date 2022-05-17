@@ -26,6 +26,7 @@
 - 백준 11047 실버3 [동전 0](https://www.acmicpc.net/problem/11047)
 - 백준 11399 실버3 [ATM](https://www.acmicpc.net/problem/11399)
 - 백준 1946 실버1 [신입사원](https://www.acmicpc.net/problem/1946)  - 실패!
+- 백준 1715 골드4 [카드 정렬하기](https://www.acmicpc.net/problem/1715)  - 실패!
 
 ------------------------------------------------------------------------------------------------
 
