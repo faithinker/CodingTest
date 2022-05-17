@@ -14,6 +14,7 @@
 		05DCD375283284DE0070B0F7 /* Baekjoon_11047.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DCD374283284DE0070B0F7 /* Baekjoon_11047.swift */; };
 		C300F4512829F07E000E8624 /* Sol_68935.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300F4502829F07E000E8624 /* Sol_68935.swift */; };
 		C30918E22833394F00BBA72D /* Baekjoon_11399.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30918E12833394F00BBA72D /* Baekjoon_11399.swift */; };
+		C30918EF2833834E00BBA72D /* Baekjoon_1946.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30918EE2833834E00BBA72D /* Baekjoon_1946.swift */; };
 		C33A6F3426EF3534001AC96A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A6F3326EF3534001AC96A /* main.swift */; };
 		C33C03ED275D915400124432 /* Two_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C03EC275D915400124432 /* Two_Sum.swift */; };
 		C33C03EF275D924200124432 /* Sol_81302.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C03EE275D924200124432 /* Sol_81302.swift */; };
@@ -48,6 +49,7 @@
 		C300F4502829F07E000E8624 /* Sol_68935.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_68935.swift; sourceTree = "<group>"; };
 		C30918E12833394F00BBA72D /* Baekjoon_11399.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_11399.swift; sourceTree = "<group>"; };
 		C30918E328333A0F00BBA72D /* Memo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Memo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C30918EE2833834E00BBA72D /* Baekjoon_1946.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_1946.swift; sourceTree = "<group>"; };
 		C33A6F3026EF3534001AC96A /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33A6F3326EF3534001AC96A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C33C03EC275D915400124432 /* Two_Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_Sum.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				0542318A282F850F00C6E776 /* Baekjoon_5585.swift */,
 				05DCD374283284DE0070B0F7 /* Baekjoon_11047.swift */,
 				C30918E12833394F00BBA72D /* Baekjoon_11399.swift */,
+				C30918EE2833834E00BBA72D /* Baekjoon_1946.swift */,
 			);
 			path = Greedy;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C30918EF2833834E00BBA72D /* Baekjoon_1946.swift in Sources */,
 				05C1983A282936F1005D8049 /* Sol_12948.swift in Sources */,
 				05C198382829346E005D8049 /* Sol_92334.swift in Sources */,
 				C30918E22833394F00BBA72D /* Baekjoon_11399.swift in Sources */,

@@ -17,6 +17,18 @@ struct ReadLine {
     
     let read = readLine()!
     
+    func multipleWithIntTuple(num: Int) -> [(Int, Int)] {
+        
+        var arrIntTuple: [(Int, Int)] = [getTupleInt()]
+        
+        for _ in 1..<num {
+            arrIntTuple.append(getTupleInt(newRead: readLine()))
+        }
+        
+        return arrIntTuple
+    }
+    
+    
     /// 여러개 입력받고 Int형 배열로 변환
     func multipleNewLine(num: Int) -> [Int] {
         // 제네릭 타입으로 고치기 또는 리턴타입 [String]도 될수있도록 수정?
@@ -44,7 +56,7 @@ struct ReadLine {
     /// 공백있는 문자를 String 배열로 변환
     /// "1 a 2" -> ["1", "a", "2"]
     func getArrString() -> [String] {
-        return read.components(separatedBy: " ")
+        return read.split(separator: " ").map { String($0) }
     }
     
     /// 공백있는 숫자를 Int 배열로 변환
@@ -55,5 +67,21 @@ struct ReadLine {
     
     func getInt() -> Int {
         return Int(read)!
+    }
+    
+    func getTupleInt(newRead: String? = nil) -> (Int, Int) {
+        let first: Int
+        let second: Int
+        
+        if let text = newRead {
+            first = Int(String(text.split(separator: " ").first!))!
+            second = Int(String(text.split(separator: " ").last!))!
+        } else {
+            first = Int(String(read.split(separator: " ").first!))!
+            second = Int(String(read.split(separator: " ").last!))!
+        }
+
+        return (first, second)
+        
     }
 }
