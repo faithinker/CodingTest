@@ -45,3 +45,9 @@ import Foundation
 
 // 그리디 알고리즘 1주일 뿌시기!! : https://www.acmicpc.net/problemset?sort=ac_desc&algo=33
 // 그리디(탐욕) 알고리즘
+
+/// 브루트포스 알고리즘 brute force
+/// [백준 2798][브론즈2] 블랙잭(https://www.acmicpc.net/problem/2798)
+/// [백준 1065][실버4] 한수(https://www.acmicpc.net/problem/1065)
+/// [백준 14501][실버3] 퇴사(https://www.acmicpc.net/problem/14501)
+/// [백준 9663][골드5] N-Queen(https://www.acmicpc.net/problem/9663)
