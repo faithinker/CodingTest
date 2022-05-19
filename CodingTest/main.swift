@@ -41,10 +41,13 @@ import Foundation
 /*
  Swift ReadLine https://didu-story.tistory.com/177
  추후에 자주쓰는 extension 따로 파일로 만들어서 호출하자!!
+ 
+ 팁 : 여러줄 출력할때 String으로 합친다음
+ var result = "\(Value)\n"
+ result.removeLast() 해주는게 좋다!
  */
 
-// 그리디 알고리즘 1주일 뿌시기!! : https://www.acmicpc.net/problemset?sort=ac_desc&algo=33
-// 그리디(탐욕) 알고리즘
+/// 알고리즘 출처 : https://github.com/raywenderlich/swift-algorithm-club/tree/master/Heap
 
 /// 브루트포스 알고리즘 brute force
 /// [백준 1065][실버4] 한수(https://www.acmicpc.net/problem/1065)
