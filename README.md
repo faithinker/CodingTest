@@ -14,6 +14,8 @@
 - 프로그래머스 12948 [핸드폰 번호 가리기](https://programmers.co.kr/learn/courses/30/lessons/12948)
 - 프로그래머스 68935 [3진법 뒤집기](https://programmers.co.kr/learn/courses/30/lessons/68935)
 
+- 프로그래머스 42840 완전탐색 [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
+
 
 
 ------------------------------------------------------------------------------------------------

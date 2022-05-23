@@ -16,6 +16,7 @@
 		C30918E22833394F00BBA72D /* Baekjoon_11399.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30918E12833394F00BBA72D /* Baekjoon_11399.swift */; };
 		C30918EF2833834E00BBA72D /* Baekjoon_1946.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30918EE2833834E00BBA72D /* Baekjoon_1946.swift */; };
 		C31B94DA2833C2BB0059E872 /* Baekjoon_1715.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31B94D92833C2BB0059E872 /* Baekjoon_1715.swift */; };
+		C3252464283B702D0029A63F /* Sol_42840.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3252463283B702D0029A63F /* Sol_42840.swift */; };
 		C33A6F3426EF3534001AC96A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A6F3326EF3534001AC96A /* main.swift */; };
 		C33C03ED275D915400124432 /* Two_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C03EC275D915400124432 /* Two_Sum.swift */; };
 		C33C03EF275D924200124432 /* Sol_81302.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C03EE275D924200124432 /* Sol_81302.swift */; };
@@ -59,6 +60,7 @@
 		C30918E328333A0F00BBA72D /* Memo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Memo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C30918EE2833834E00BBA72D /* Baekjoon_1946.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_1946.swift; sourceTree = "<group>"; };
 		C31B94D92833C2BB0059E872 /* Baekjoon_1715.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_1715.swift; sourceTree = "<group>"; };
+		C3252463283B702D0029A63F /* Sol_42840.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_42840.swift; sourceTree = "<group>"; };
 		C33A6F3026EF3534001AC96A /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33A6F3326EF3534001AC96A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C33C03EC275D915400124432 /* Two_Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_Sum.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				05C198372829346E005D8049 /* Sol_92334.swift */,
 				05C19839282936F1005D8049 /* Sol_12948.swift */,
 				C300F4502829F07E000E8624 /* Sol_68935.swift */,
+				C3252463283B702D0029A63F /* Sol_42840.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				C399DC652834B96E00A68152 /* Baekjoon_2231.swift in Sources */,
 				C399DC72283624F400A68152 /* Heap.swift in Sources */,
 				C30918EF2833834E00BBA72D /* Baekjoon_1946.swift in Sources */,
+				C3252464283B702D0029A63F /* Sol_42840.swift in Sources */,
 				05C1983A282936F1005D8049 /* Sol_12948.swift in Sources */,
 				05C198382829346E005D8049 /* Sol_92334.swift in Sources */,
 				C399DC7A283627DA00A68152 /* Baekjoon_11279.swift in Sources */,
