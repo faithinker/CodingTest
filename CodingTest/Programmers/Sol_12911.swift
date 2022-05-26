@@ -42,6 +42,60 @@ class Sol_12911 {
 
         return answer
     }
+    
+    
+    /// 20220526 다시 문제풀이함
+    func solution4(_ n:Int) -> Int {
+        
+        let nOneCount = oneCount(num: n)
+    
+        for i in n+1..<Int.max {
+            if oneCount(num: i) == nOneCount {
+                return i //print("result: \(i)")
+            }
+        }
+        
+        /// 2진수 변환 후, 1의 갯수 카운트 해주는 함수
+        func oneCount(num: Int) -> Int {
+            return String(num, radix: 2).map { String($0) }.filter { $0 == "1" }.count
+        }
+    
+        return 0
+    }
+    
+    
+    // 동료 문제풀이
+    
+    var oneConut = Int.max
+    // 2진수 직접 변환해서 1의 갯수 카운팅 하는 함수
+    func divide(number: Int) -> Int {
+        var count = 0
+        var num = number
+        while num != 0 {
+            //print(num)
+            if num % 2 == 1 { count += 1 }
+            if count > oneConut {
+                return -1
+            }
+            num /= 2
+        }
+        
+        return count
+    }
+    
+    func solution3(_ n:Int) -> Int {
+        oneConut = divide(number: n)
+        var addValue = 1
+        var answer = 0
+        while true {
+            if oneConut == divide(number: n + addValue) { // 1의 갯수 비교
+                answer = n + addValue
+                break
+            }
+            addValue += 1
+        }
+        return answer
+    }
 }
 
 
