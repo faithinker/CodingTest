@@ -27,6 +27,7 @@
 		C38D322D271127B800E79497 /* Sol_86491.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D322C271127B800E79497 /* Sol_86491.swift */; };
 		C38D323027112F8200E79497 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D322F27112F8200E79497 /* Log.swift */; };
 		C38D3234271135AF00E79497 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3233271135AF00E79497 /* Test.swift */; };
+		C38F67A52840957E0054FCFF /* Sol_42839.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F67A42840957E0054FCFF /* Sol_42839.swift */; };
 		C399DC652834B96E00A68152 /* Baekjoon_2231.swift in Sources */ = {isa = PBXBuildFile; fileRef = C399DC642834B96E00A68152 /* Baekjoon_2231.swift */; };
 		C399DC672834E30200A68152 /* Baekjoon_2798.swift in Sources */ = {isa = PBXBuildFile; fileRef = C399DC662834E30200A68152 /* Baekjoon_2798.swift */; };
 		C399DC70283624C500A68152 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C399DC6F283624C500A68152 /* PriorityQueue.swift */; };
@@ -76,6 +77,7 @@
 		C38D322C271127B800E79497 /* Sol_86491.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_86491.swift; sourceTree = "<group>"; };
 		C38D322F27112F8200E79497 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		C38D3233271135AF00E79497 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		C38F67A42840957E0054FCFF /* Sol_42839.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_42839.swift; sourceTree = "<group>"; };
 		C399DC642834B96E00A68152 /* Baekjoon_2231.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_2231.swift; sourceTree = "<group>"; };
 		C399DC662834E30200A68152 /* Baekjoon_2798.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_2798.swift; sourceTree = "<group>"; };
 		C399DC6F283624C500A68152 /* PriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				05C19839282936F1005D8049 /* Sol_12948.swift */,
 				C300F4502829F07E000E8624 /* Sol_68935.swift */,
 				C3252463283B702D0029A63F /* Sol_42840.swift */,
+				C38F67A42840957E0054FCFF /* Sol_42839.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				C329DECF283DFD0800DE5248 /* Baekjoon_7568.swift in Sources */,
 				F4C80A11271AB6DE00CD72C4 /* Sol_86051.swift in Sources */,
 				05DCD375283284DE0070B0F7 /* Baekjoon_11047.swift in Sources */,
+				C38F67A52840957E0054FCFF /* Sol_42839.swift in Sources */,
 				C38D322D271127B800E79497 /* Sol_86491.swift in Sources */,
 				C33C03EF275D924200124432 /* Sol_81302.swift in Sources */,
 				C33A6F3426EF3534001AC96A /* main.swift in Sources */,
