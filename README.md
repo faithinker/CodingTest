@@ -17,6 +17,8 @@
 - 프로그래머스 42840 완전탐색 [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
 - 프로그래머스 42839 완전탐색 [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)   - 실패!
 
+- 프로그래머스 62048 [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048)  - 실패!
+
 
 ------------------------------------------------------------------------------------------------
 

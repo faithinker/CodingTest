@@ -24,6 +24,10 @@ class Sol_76501 {
         }
         return sum
     }
+    
+    func solution2(_ absolutes:[Int], _ signs:[Bool]) -> Int {
+        return (0..<absolutes.count).map { signs[$0] ? absolutes[$0] : -absolutes[$0] }.reduce(0, +)
+    }
 }
 
 // 함수 안에 이 로직 넣기

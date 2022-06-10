@@ -10,6 +10,7 @@
 		0542318B282F850F00C6E776 /* Baekjoon_5585.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0542318A282F850F00C6E776 /* Baekjoon_5585.swift */; };
 		05C198382829346E005D8049 /* Sol_92334.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C198372829346E005D8049 /* Sol_92334.swift */; };
 		05C1983A282936F1005D8049 /* Sol_12948.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C19839282936F1005D8049 /* Sol_12948.swift */; };
+		05D3EC442853388400418EF6 /* Sol_62048.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D3EC432853388400418EF6 /* Sol_62048.swift */; };
 		05DCD37228327E840070B0F7 /* ReadLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DCD37128327E840070B0F7 /* ReadLine.swift */; };
 		05DCD375283284DE0070B0F7 /* Baekjoon_11047.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DCD374283284DE0070B0F7 /* Baekjoon_11047.swift */; };
 		C300F4512829F07E000E8624 /* Sol_68935.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300F4502829F07E000E8624 /* Sol_68935.swift */; };
@@ -58,6 +59,7 @@
 		0542318A282F850F00C6E776 /* Baekjoon_5585.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_5585.swift; sourceTree = "<group>"; };
 		05C198372829346E005D8049 /* Sol_92334.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_92334.swift; sourceTree = "<group>"; };
 		05C19839282936F1005D8049 /* Sol_12948.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_12948.swift; sourceTree = "<group>"; };
+		05D3EC432853388400418EF6 /* Sol_62048.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_62048.swift; sourceTree = "<group>"; };
 		05DCD37128327E840070B0F7 /* ReadLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadLine.swift; sourceTree = "<group>"; };
 		05DCD374283284DE0070B0F7 /* Baekjoon_11047.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_11047.swift; sourceTree = "<group>"; };
 		C300F4502829F07E000E8624 /* Sol_68935.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_68935.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				C300F4502829F07E000E8624 /* Sol_68935.swift */,
 				C3252463283B702D0029A63F /* Sol_42840.swift */,
 				C38F67A42840957E0054FCFF /* Sol_42839.swift */,
+				05D3EC432853388400418EF6 /* Sol_62048.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				05C198382829346E005D8049 /* Sol_92334.swift in Sources */,
 				C399DC7A283627DA00A68152 /* Baekjoon_11279.swift in Sources */,
 				C30918E22833394F00BBA72D /* Baekjoon_11399.swift in Sources */,
+				05D3EC442853388400418EF6 /* Sol_62048.swift in Sources */,
 				C399DC672834E30200A68152 /* Baekjoon_2798.swift in Sources */,
 				0542318B282F850F00C6E776 /* Baekjoon_5585.swift in Sources */,
 				C300F4512829F07E000E8624 /* Sol_68935.swift in Sources */,
