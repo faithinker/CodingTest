@@ -45,3 +45,40 @@ print(sampleMatrix)
  FileIO
  https://blog.slarea.com/algorithm/baekjoon/fileio/
  */
+
+
+
+
+
+// ================================================
+
+/// 완전 탐색(조합/순열/재귀) 전체 M개 중에 부분조합 N개를 찾기!!
+/// https://ios-development.tistory.com/423
+/// https://developer-p.tistory.com/145
+/// 순열 : 순서도 고려
+/// 조합 : 순서 고려 X
+/// 핵심 : 재귀함수 + 배열에 누적추가
+
+func combi<T>(_ nums: [T], _ targetNum: Int) -> [[T]] {
+    var result = [[T]]()
+
+    func combination(_ index: Int, _ nowCombi: [T]) {
+        if nowCombi.count == targetNum {
+            result.append(nowCombi)
+            return
+        }
+        for i in index..<nums.count {
+            combination(i + 1, nowCombi + [nums[i]])
+        }
+    }
+
+    combination(0, [])
+
+    return result
+}
+
+
+print(combi(["a", "b", "c"], 2))
+print(combi([1, 2, 3], 2))
+// Failed to launch process. Failed to attach to stub for playground execution:
+// error: debugserver is x86_64 binary running in translation, attached failed..
