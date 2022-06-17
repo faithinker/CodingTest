@@ -1,5 +1,7 @@
 /// 자주쓰는 함수, 알고있으면 유용한 것 정리
 
+// !!!: XCode를 로제타로 돌리는 것을 해제해야 한다!
+
 import Cocoa
 
 let zeroes = repeatElement(0, count: 5)
@@ -80,5 +82,7 @@ func combi<T>(_ nums: [T], _ targetNum: Int) -> [[T]] {
 
 print(combi(["a", "b", "c"], 2))
 print(combi([1, 2, 3], 2))
-// Failed to launch process. Failed to attach to stub for playground execution:
-// error: debugserver is x86_64 binary running in translation, attached failed..
+
+
+// 일치하는 단어를 찾아 with단어로 치환
+"1234".replacingOccurrences(of: "12", with: "")
