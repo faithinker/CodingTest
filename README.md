@@ -23,6 +23,7 @@
 
 - 프로그래머스 64065 [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065) - 2019 카카오 겨울인턴
 
+- 118666 [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666) - 2022 KAKAO TECH INTERNSHIP
 ------------------------------------------------------------------------------------------------
 
 ## 백준
