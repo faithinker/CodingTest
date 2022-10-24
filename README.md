@@ -30,6 +30,10 @@
 
 - 118667 [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667) - 투포인터, 실패! 
 
+2022 KAKAO BLIND RECRUITMENT
+
+- 92341 [주차 요금 계산])https://school.programmers.co.kr/learn/courses/30/lessons/92341)
+
 
 ------------------------------------------------------------------------------------------------
 
