@@ -10,6 +10,8 @@
 		053B97FD2906250800C52524 /* Sol_92341.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053B97FC2906250800C52524 /* Sol_92341.swift */; };
 		053BF79A285C41B3002F5AA1 /* Sol_64065.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053BF799285C41B3002F5AA1 /* Sol_64065.swift */; };
 		0542318B282F850F00C6E776 /* Baekjoon_5585.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0542318A282F850F00C6E776 /* Baekjoon_5585.swift */; };
+		056BEC8D29221530002D99CE /* Baekjoon_1920.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BEC8C29221530002D99CE /* Baekjoon_1920.swift */; };
+		056BEC8F29221B3F002D99CE /* Baekjoon_2805.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BEC8E29221B3F002D99CE /* Baekjoon_2805.swift */; };
 		0574BCF928E5640F00376808 /* Sol_118666.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0574BCF828E5640F00376808 /* Sol_118666.swift */; };
 		0574BCFB28E587DD00376808 /* Sol_118667.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0574BCFA28E587DD00376808 /* Sol_118667.swift */; };
 		0591F201290771060028E40A /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591F200290771060028E40A /* DFS.swift */; };
@@ -67,6 +69,8 @@
 		053B97FC2906250800C52524 /* Sol_92341.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_92341.swift; sourceTree = "<group>"; };
 		053BF799285C41B3002F5AA1 /* Sol_64065.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_64065.swift; sourceTree = "<group>"; };
 		0542318A282F850F00C6E776 /* Baekjoon_5585.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_5585.swift; sourceTree = "<group>"; };
+		056BEC8C29221530002D99CE /* Baekjoon_1920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_1920.swift; sourceTree = "<group>"; };
+		056BEC8E29221B3F002D99CE /* Baekjoon_2805.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_2805.swift; sourceTree = "<group>"; };
 		0574BCF828E5640F00376808 /* Sol_118666.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_118666.swift; sourceTree = "<group>"; };
 		0574BCFA28E587DD00376808 /* Sol_118667.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_118667.swift; sourceTree = "<group>"; };
 		0591F200290771060028E40A /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
@@ -125,12 +129,22 @@
 		05423189282F849100C6E776 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				056BEC8B29221415002D99CE /* BinarySearch */,
 				C329DEC9283DAD9100DE5248 /* Implementation */,
 				C399DC78283627AB00A68152 /* PriorityQueue */,
 				C399DC632834B94500A68152 /* BruteForce */,
 				05DCD373283284320070B0F7 /* Greedy */,
 			);
 			path = BOJ;
+			sourceTree = "<group>";
+		};
+		056BEC8B29221415002D99CE /* BinarySearch */ = {
+			isa = PBXGroup;
+			children = (
+				056BEC8C29221530002D99CE /* Baekjoon_1920.swift */,
+				056BEC8E29221B3F002D99CE /* Baekjoon_2805.swift */,
+			);
+			path = BinarySearch;
 			sourceTree = "<group>";
 		};
 		0591F1FF290770E40028E40A /* Category */ = {
@@ -326,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				056BEC8D29221530002D99CE /* Baekjoon_1920.swift in Sources */,
 				C329DECD283DBEA000DE5248 /* Baekjoon_1110.swift in Sources */,
 				C31B94DA2833C2BB0059E872 /* Baekjoon_1715.swift in Sources */,
 				C399DC70283624C500A68152 /* PriorityQueue.swift in Sources */,
@@ -342,6 +357,7 @@
 				C399DC672834E30200A68152 /* Baekjoon_2798.swift in Sources */,
 				0542318B282F850F00C6E776 /* Baekjoon_5585.swift in Sources */,
 				C300F4512829F07E000E8624 /* Sol_68935.swift in Sources */,
+				056BEC8F29221B3F002D99CE /* Baekjoon_2805.swift in Sources */,
 				C38D323027112F8200E79497 /* Log.swift in Sources */,
 				C38D3234271135AF00E79497 /* Test.swift in Sources */,
 				C329DECF283DFD0800DE5248 /* Baekjoon_7568.swift in Sources */,
