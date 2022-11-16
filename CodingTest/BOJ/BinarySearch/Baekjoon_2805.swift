@@ -7,14 +7,14 @@
 
 import Foundation
 
-/// [백준 2805][실버4] 수 찾기(https://www.acmicpc.net/problem/2805)
+/// [백준 2805][실버2] 나무 자르기(https://www.acmicpc.net/problem/2805)
 
 class Baekjoon_2805 {
     
     init() {
-        var nn = ReadLine().getArrInt()
-        var data = ReadLine().getArrInt()
-        var length = nn[1]
+        let nn = ReadLine().getArrInt()
+        let data = ReadLine().getArrInt()
+        let length = nn[1]
 
         var result = 0, start = 0, end = data.max() ?? 0
 

@@ -60,6 +60,19 @@
 - 백준 1110 브론즈1 [더하기 사이클](https://www.acmicpc.net/problem/1110)
 - 백준 7568 실버4 [덩치](https://www.acmicpc.net/problem/7568)    - 실패!
 
+### 이분 탐색
+- 1920 실버4 [수 찾기](https://www.acmicpc.net/problem/1920)
+- 2805 실버2 [나무 자르기](https://www.acmicpc.net/problem/2805)
+- 1654 실버2 [랜선 자르기(https://www.acmicpc.net/problem/1654)
+- 10816 실버4 [수 찾기2](https://www.acmicpc.net/problem/10816)
+- 10815 실버5 [숫자카드](https://www.acmicpc.net/problem/10815)
+- 2512 실버3 [예산](https://www.acmicpc.net/problem/2512)
+- 2110 실버 [공유기 설치](https://www.acmicpc.net/problem/2110)    - 실패!
+
+
+
+
+
 ------------------------------------------------------------------------------------------------
 
 ## LeetCode

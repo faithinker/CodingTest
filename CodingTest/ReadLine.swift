@@ -13,6 +13,8 @@ import Foundation
 
 
 /// 키보드 입력받기 공통 구조체!!
+///
+/// ===================== ReadLine =====================
 struct ReadLine {
     
     let read = readLine()!
@@ -28,7 +30,7 @@ struct ReadLine {
         return arrIntTuple
     }
     
-    /// 여러개 입력받고 Int형 배열로 변환
+    /// 여러줄(개행) 입력받고 Int형 배열로 변환
     func multipleNewLine(num: Int) -> [Int] {
         // 제네릭 타입으로 고치기 또는 리턴타입 [String]도 될수있도록 수정?
         var arr: [Int] = [getInt()]

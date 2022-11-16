@@ -12,6 +12,11 @@
 		0542318B282F850F00C6E776 /* Baekjoon_5585.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0542318A282F850F00C6E776 /* Baekjoon_5585.swift */; };
 		056BEC8D29221530002D99CE /* Baekjoon_1920.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BEC8C29221530002D99CE /* Baekjoon_1920.swift */; };
 		056BEC8F29221B3F002D99CE /* Baekjoon_2805.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BEC8E29221B3F002D99CE /* Baekjoon_2805.swift */; };
+		056BEC91292361EC002D99CE /* Baekjoon_1654.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BEC90292361EC002D99CE /* Baekjoon_1654.swift */; };
+		056BEC932923642F002D99CE /* Baekjoon_10816.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BEC922923642F002D99CE /* Baekjoon_10816.swift */; };
+		056BEC95292367BB002D99CE /* Baekjoon_10815.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BEC94292367BB002D99CE /* Baekjoon_10815.swift */; };
+		056BEC9729237DAC002D99CE /* Baekjoon_2512.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BEC9629237DAC002D99CE /* Baekjoon_2512.swift */; };
+		056BEC9929237E66002D99CE /* Baekjoon_2110.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BEC9829237E66002D99CE /* Baekjoon_2110.swift */; };
 		0574BCF928E5640F00376808 /* Sol_118666.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0574BCF828E5640F00376808 /* Sol_118666.swift */; };
 		0574BCFB28E587DD00376808 /* Sol_118667.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0574BCFA28E587DD00376808 /* Sol_118667.swift */; };
 		0591F201290771060028E40A /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591F200290771060028E40A /* DFS.swift */; };
@@ -71,6 +76,11 @@
 		0542318A282F850F00C6E776 /* Baekjoon_5585.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_5585.swift; sourceTree = "<group>"; };
 		056BEC8C29221530002D99CE /* Baekjoon_1920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_1920.swift; sourceTree = "<group>"; };
 		056BEC8E29221B3F002D99CE /* Baekjoon_2805.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_2805.swift; sourceTree = "<group>"; };
+		056BEC90292361EC002D99CE /* Baekjoon_1654.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_1654.swift; sourceTree = "<group>"; };
+		056BEC922923642F002D99CE /* Baekjoon_10816.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_10816.swift; sourceTree = "<group>"; };
+		056BEC94292367BB002D99CE /* Baekjoon_10815.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_10815.swift; sourceTree = "<group>"; };
+		056BEC9629237DAC002D99CE /* Baekjoon_2512.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_2512.swift; sourceTree = "<group>"; };
+		056BEC9829237E66002D99CE /* Baekjoon_2110.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_2110.swift; sourceTree = "<group>"; };
 		0574BCF828E5640F00376808 /* Sol_118666.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_118666.swift; sourceTree = "<group>"; };
 		0574BCFA28E587DD00376808 /* Sol_118667.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_118667.swift; sourceTree = "<group>"; };
 		0591F200290771060028E40A /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
@@ -143,6 +153,11 @@
 			children = (
 				056BEC8C29221530002D99CE /* Baekjoon_1920.swift */,
 				056BEC8E29221B3F002D99CE /* Baekjoon_2805.swift */,
+				056BEC90292361EC002D99CE /* Baekjoon_1654.swift */,
+				056BEC922923642F002D99CE /* Baekjoon_10816.swift */,
+				056BEC94292367BB002D99CE /* Baekjoon_10815.swift */,
+				056BEC9629237DAC002D99CE /* Baekjoon_2512.swift */,
+				056BEC9829237E66002D99CE /* Baekjoon_2110.swift */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -349,10 +364,12 @@
 				C30918EF2833834E00BBA72D /* Baekjoon_1946.swift in Sources */,
 				C3252464283B702D0029A63F /* Sol_42840.swift in Sources */,
 				05C1983A282936F1005D8049 /* Sol_12948.swift in Sources */,
+				056BEC932923642F002D99CE /* Baekjoon_10816.swift in Sources */,
 				05C198382829346E005D8049 /* Sol_92334.swift in Sources */,
 				0591F201290771060028E40A /* DFS.swift in Sources */,
 				C399DC7A283627DA00A68152 /* Baekjoon_11279.swift in Sources */,
 				C30918E22833394F00BBA72D /* Baekjoon_11399.swift in Sources */,
+				056BEC9929237E66002D99CE /* Baekjoon_2110.swift in Sources */,
 				05D3EC442853388400418EF6 /* Sol_62048.swift in Sources */,
 				C399DC672834E30200A68152 /* Baekjoon_2798.swift in Sources */,
 				0542318B282F850F00C6E776 /* Baekjoon_5585.swift in Sources */,
@@ -367,8 +384,11 @@
 				0574BCFB28E587DD00376808 /* Sol_118667.swift in Sources */,
 				0591F203290777ED0028E40A /* Queue.swift in Sources */,
 				C38D322D271127B800E79497 /* Sol_86491.swift in Sources */,
+				056BEC91292361EC002D99CE /* Baekjoon_1654.swift in Sources */,
 				053B97FD2906250800C52524 /* Sol_92341.swift in Sources */,
 				C33C03EF275D924200124432 /* Sol_81302.swift in Sources */,
+				056BEC95292367BB002D99CE /* Baekjoon_10815.swift in Sources */,
+				056BEC9729237DAC002D99CE /* Baekjoon_2512.swift in Sources */,
 				C33A6F3426EF3534001AC96A /* main.swift in Sources */,
 				F48B687B2765E349004CC780 /* Sol_76501.swift in Sources */,
 				C399DC772836251E00A68152 /* PriorityQueueTests.swift in Sources */,
