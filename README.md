@@ -10,7 +10,6 @@
 - 프로그래머스 76501 [음양 더하기](https://programmers.co.kr/learn/courses/30/lessons/76501)
 - 프로그래머스 12911 [다음 큰 숫자](https://programmers.co.kr/learn/courses/30/lessons/12911)
 
-- 프로그래머스 92334 [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334)
 - 프로그래머스 12948 [핸드폰 번호 가리기](https://programmers.co.kr/learn/courses/30/lessons/12948)
 - 프로그래머스 68935 [3진법 뒤집기](https://programmers.co.kr/learn/courses/30/lessons/68935)
 
@@ -23,17 +22,20 @@
 
 - 프로그래머스 64065 [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065) - 2019 카카오 겨울인턴
 
+- 프로그래머스 87389 [레벨 1] [나머지가 1이 되는 수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/87389)
+- 프로그래머스 133499 [레벨 1] [옹알이 (2)](https://school.programmers.co.kr/learn/courses/30/lessons/133499)
+
 
 2022 KAKAO TECH INTERNSHIP
 
 - 118666 [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666) - 
-
 - 118667 [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667) - 투포인터, 실패! 
 
 2022 KAKAO BLIND RECRUITMENT
 
 - 92341 [주차 요금 계산])https://school.programmers.co.kr/learn/courses/30/lessons/92341)
-
+- 92334 [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334)
+- 92335 [레벨 2] [k진수에서 소수 개수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/92335) - 하는중!!!
 
 ------------------------------------------------------------------------------------------------
 

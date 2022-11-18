@@ -56,3 +56,29 @@ import Foundation
 /// [백준 1018][실버5] 체스판 다시 칠하기(https://www.acmicpc.net/problem/1018)
 
 // [프로그래머스 43165] 타겟넘버 https://school.programmers.co.kr/learn/courses/30/lessons/43165 - 깊이/너비 우선 탐색(DFS/BFS)
+
+
+
+
+
+// [프로그래머스 92335][레벨 2] k진수에서 소수 개수 구하기 https://school.programmers.co.kr/learn/courses/30/lessons/92335
+
+/*
+ 1. 0을 기준으로 배열을 만든다.
+ 2. 3진법을 10진법으로 변환한다.
+ 3. 소수인지 아닌지 판별한다.
+ */
+
+
+func solution(_ n:Int, _ k:Int) -> Int {
+    //guard let new = Int(String(n, radix: 3)) else { return -1 }
+    let new = String(n, radix: 3).map { String($0) }
+    
+    
+    return -1
+}
+
+// 211020101011
+//
+
+solution(437674, 3) // 3

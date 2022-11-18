@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// [프로그래머스 86491] 최소직사각형(https://programmers.co.kr/learn/courses/30/lessons/86491)
 class Sol_86491: Log {
     
     override init() {
@@ -14,7 +15,6 @@ class Sol_86491: Log {
         LOG(solution([[60, 50], [30, 70], [60, 30], [80, 40]]))
     }
     
-    /// [프로그래머스 86491] 최소직사각형(https://programmers.co.kr/learn/courses/30/lessons/86491)
     func solution(_ sizes:[[Int]]) -> Int {
         var left = [Int]()      // 최댓값의 모음
         var right = [Int]()     // 최솟값의 모음

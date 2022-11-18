@@ -19,6 +19,9 @@
 		056BEC9929237E66002D99CE /* Baekjoon_2110.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BEC9829237E66002D99CE /* Baekjoon_2110.swift */; };
 		0574BCF928E5640F00376808 /* Sol_118666.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0574BCF828E5640F00376808 /* Sol_118666.swift */; };
 		0574BCFB28E587DD00376808 /* Sol_118667.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0574BCFA28E587DD00376808 /* Sol_118667.swift */; };
+		057B81542927655000195AC8 /* Sol_87389.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057B81532927655000195AC8 /* Sol_87389.swift */; };
+		057B8156292765B500195AC8 /* Sol_133499.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057B8155292765B500195AC8 /* Sol_133499.swift */; };
+		057B815D29277ADE00195AC8 /* Sol_92335.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057B815C29277ADE00195AC8 /* Sol_92335.swift */; };
 		0591F201290771060028E40A /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591F200290771060028E40A /* DFS.swift */; };
 		0591F203290777ED0028E40A /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591F202290777ED0028E40A /* Queue.swift */; };
 		0591F2052907783D0028E40A /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591F2042907783D0028E40A /* BFS.swift */; };
@@ -83,6 +86,9 @@
 		056BEC9829237E66002D99CE /* Baekjoon_2110.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_2110.swift; sourceTree = "<group>"; };
 		0574BCF828E5640F00376808 /* Sol_118666.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_118666.swift; sourceTree = "<group>"; };
 		0574BCFA28E587DD00376808 /* Sol_118667.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_118667.swift; sourceTree = "<group>"; };
+		057B81532927655000195AC8 /* Sol_87389.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_87389.swift; sourceTree = "<group>"; };
+		057B8155292765B500195AC8 /* Sol_133499.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_133499.swift; sourceTree = "<group>"; };
+		057B815C29277ADE00195AC8 /* Sol_92335.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_92335.swift; sourceTree = "<group>"; };
 		0591F200290771060028E40A /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
 		0591F202290777ED0028E40A /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		0591F2042907783D0028E40A /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
@@ -162,6 +168,23 @@
 			path = BinarySearch;
 			sourceTree = "<group>";
 		};
+		057B81522927652D00195AC8 /* Level1 */ = {
+			isa = PBXGroup;
+			children = (
+				057B81532927655000195AC8 /* Sol_87389.swift */,
+				057B8155292765B500195AC8 /* Sol_133499.swift */,
+			);
+			path = Level1;
+			sourceTree = "<group>";
+		};
+		057B815729277ABF00195AC8 /* Level2 */ = {
+			isa = PBXGroup;
+			children = (
+				057B815C29277ADE00195AC8 /* Sol_92335.swift */,
+			);
+			path = Level2;
+			sourceTree = "<group>";
+		};
 		0591F1FF290770E40028E40A /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +252,8 @@
 		C38D322B271127AA00E79497 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				057B815729277ABF00195AC8 /* Level2 */,
+				057B81522927652D00195AC8 /* Level1 */,
 				C38D322C271127B800E79497 /* Sol_86491.swift */,
 				F4C80A10271AB6DE00CD72C4 /* Sol_86051.swift */,
 				C38D3233271135AF00E79497 /* Test.swift */,
@@ -360,11 +385,13 @@
 				C31B94DA2833C2BB0059E872 /* Baekjoon_1715.swift in Sources */,
 				C399DC70283624C500A68152 /* PriorityQueue.swift in Sources */,
 				C399DC652834B96E00A68152 /* Baekjoon_2231.swift in Sources */,
+				057B815D29277ADE00195AC8 /* Sol_92335.swift in Sources */,
 				C399DC72283624F400A68152 /* Heap.swift in Sources */,
 				C30918EF2833834E00BBA72D /* Baekjoon_1946.swift in Sources */,
 				C3252464283B702D0029A63F /* Sol_42840.swift in Sources */,
 				05C1983A282936F1005D8049 /* Sol_12948.swift in Sources */,
 				056BEC932923642F002D99CE /* Baekjoon_10816.swift in Sources */,
+				057B81542927655000195AC8 /* Sol_87389.swift in Sources */,
 				05C198382829346E005D8049 /* Sol_92334.swift in Sources */,
 				0591F201290771060028E40A /* DFS.swift in Sources */,
 				C399DC7A283627DA00A68152 /* Baekjoon_11279.swift in Sources */,
@@ -394,6 +421,7 @@
 				C399DC772836251E00A68152 /* PriorityQueueTests.swift in Sources */,
 				C3FBC0EB274DF8C9000983D5 /* Sol_12973.swift in Sources */,
 				F48B687E2765FC27004CC780 /* Sol_12911.swift in Sources */,
+				057B8156292765B500195AC8 /* Sol_133499.swift in Sources */,
 				05E9AF4728587E09005FFE57 /* Sol_72411.swift in Sources */,
 				05DCD37228327E840070B0F7 /* ReadLine.swift in Sources */,
 				C33C1CBD283B7BB000579B0C /* Baekjoon_1018.swift in Sources */,
