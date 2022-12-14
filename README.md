@@ -37,6 +37,8 @@
 - 92334 [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334)
 - 92335 [레벨 2] [k진수에서 소수 개수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/92335) - 실패!
 - 92342 [양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342) - DFS + 탐색 + 그리디, 실패!!!
+- 92344 [파괴되지 않은 건물](https://school.programmers.co.kr/learn/courses/30/lessons/92344) - 효율성 + 누적합, 실패!!! 
+
 ------------------------------------------------------------------------------------------------
 
 ## 백준

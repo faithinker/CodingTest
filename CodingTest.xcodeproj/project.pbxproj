@@ -25,6 +25,7 @@
 		0591F201290771060028E40A /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591F200290771060028E40A /* DFS.swift */; };
 		0591F203290777ED0028E40A /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591F202290777ED0028E40A /* Queue.swift */; };
 		0591F2052907783D0028E40A /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591F2042907783D0028E40A /* BFS.swift */; };
+		0595B80D29498ADE003F39E3 /* Sol_92344.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0595B80C29498ADE003F39E3 /* Sol_92344.swift */; };
 		05C198382829346E005D8049 /* Sol_92334.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C198372829346E005D8049 /* Sol_92334.swift */; };
 		05C1983A282936F1005D8049 /* Sol_12948.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C19839282936F1005D8049 /* Sol_12948.swift */; };
 		05D3EC442853388400418EF6 /* Sol_62048.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D3EC432853388400418EF6 /* Sol_62048.swift */; };
@@ -97,6 +98,7 @@
 		0591F200290771060028E40A /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
 		0591F202290777ED0028E40A /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		0591F2042907783D0028E40A /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
+		0595B80C29498ADE003F39E3 /* Sol_92344.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_92344.swift; sourceTree = "<group>"; };
 		05C198372829346E005D8049 /* Sol_92334.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_92334.swift; sourceTree = "<group>"; };
 		05C19839282936F1005D8049 /* Sol_12948.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_12948.swift; sourceTree = "<group>"; };
 		05D3EC432853388400418EF6 /* Sol_62048.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_62048.swift; sourceTree = "<group>"; };
@@ -295,6 +297,7 @@
 				0574BCFA28E587DD00376808 /* Sol_118667.swift */,
 				053B97FC2906250800C52524 /* Sol_92341.swift */,
 				05D79F732940827F0008154C /* Sol_92342.swift */,
+				0595B80C29498ADE003F39E3 /* Sol_92344.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -416,6 +419,7 @@
 				056BEC932923642F002D99CE /* Baekjoon_10816.swift in Sources */,
 				057B81542927655000195AC8 /* Sol_87389.swift in Sources */,
 				05C198382829346E005D8049 /* Sol_92334.swift in Sources */,
+				0595B80D29498ADE003F39E3 /* Sol_92344.swift in Sources */,
 				0591F201290771060028E40A /* DFS.swift in Sources */,
 				C399DC7A283627DA00A68152 /* Baekjoon_11279.swift in Sources */,
 				C30918E22833394F00BBA72D /* Baekjoon_11399.swift in Sources */,
