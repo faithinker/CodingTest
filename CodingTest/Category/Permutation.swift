@@ -19,6 +19,8 @@ class Permutation {
 //    print("result: \(result), Count : \(result.count)")
     
     /// 스택 사용
+    /// - array: 배열
+    /// - n: 조합할 갯수
     func permutation<T: Comparable>(_ array: [T], _ n: Int) -> [[T]] {
         var result = [[T]]()
         if array.count < n { return result }

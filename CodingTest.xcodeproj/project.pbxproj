@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0534E31F295153A900691F0B /* Baekjoon_15649.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0534E31E295153A900691F0B /* Baekjoon_15649.swift */; };
 		0534E3212951978500691F0B /* Baekjoon_9663.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0534E3202951978500691F0B /* Baekjoon_9663.swift */; };
+		0534E3232951BAE000691F0B /* Baekjoon_10819.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0534E3222951BAE000691F0B /* Baekjoon_10819.swift */; };
 		053B97FD2906250800C52524 /* Sol_92341.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053B97FC2906250800C52524 /* Sol_92341.swift */; };
 		053BF79A285C41B3002F5AA1 /* Sol_64065.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053BF799285C41B3002F5AA1 /* Sol_64065.swift */; };
 		0542318B282F850F00C6E776 /* Baekjoon_5585.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0542318A282F850F00C6E776 /* Baekjoon_5585.swift */; };
@@ -84,6 +85,7 @@
 /* Begin PBXFileReference section */
 		0534E31E295153A900691F0B /* Baekjoon_15649.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_15649.swift; sourceTree = "<group>"; };
 		0534E3202951978500691F0B /* Baekjoon_9663.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_9663.swift; sourceTree = "<group>"; };
+		0534E3222951BAE000691F0B /* Baekjoon_10819.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_10819.swift; sourceTree = "<group>"; };
 		053B97FC2906250800C52524 /* Sol_92341.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_92341.swift; sourceTree = "<group>"; };
 		053BF799285C41B3002F5AA1 /* Sol_64065.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_64065.swift; sourceTree = "<group>"; };
 		0542318A282F850F00C6E776 /* Baekjoon_5585.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_5585.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 			children = (
 				0534E31E295153A900691F0B /* Baekjoon_15649.swift */,
 				0534E3202951978500691F0B /* Baekjoon_9663.swift */,
+				0534E3222951BAE000691F0B /* Baekjoon_10819.swift */,
 			);
 			path = BackTracking;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				056BEC932923642F002D99CE /* Baekjoon_10816.swift in Sources */,
 				057B81542927655000195AC8 /* Sol_87389.swift in Sources */,
 				05C198382829346E005D8049 /* Sol_92334.swift in Sources */,
+				0534E3232951BAE000691F0B /* Baekjoon_10819.swift in Sources */,
 				0595B80D29498ADE003F39E3 /* Sol_92344.swift in Sources */,
 				0591F201290771060028E40A /* DFS.swift in Sources */,
 				C399DC7A283627DA00A68152 /* Baekjoon_11279.swift in Sources */,
