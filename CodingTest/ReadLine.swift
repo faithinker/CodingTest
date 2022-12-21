@@ -30,7 +30,7 @@ struct ReadLine {
         return arrIntTuple
     }
     
-    /// 여러줄(개행) 입력받고 Int형 배열로 변환
+    /// 여러줄(개행) 입력받고 Int형 일차원 배열로 변환
     func multipleNewLine(num: Int) -> [Int] {
         // 제네릭 타입으로 고치기 또는 리턴타입 [String]도 될수있도록 수정?
         var arr: [Int] = [getInt()]
@@ -84,6 +84,18 @@ struct ReadLine {
 
         return (first, second)
         
+    }
+    
+    /// N x N 으로 입력된 숫자들을 이차원 배열로 변환
+    func matrixInt(_ n: Int) -> [[Int]] {
+        var maxtrix = [[Int]]()
+        // read 변수가 전역변수이기 때문에 클래스 생성시 무조건 입력 받아서 써야한다.
+        maxtrix.append(read.split(separator: " ").map { Int(String($0))! })
+        
+        for _ in 1..<n {
+            maxtrix.append(readLine()!.split(separator: " ").map { Int(String($0))! })
+        }
+        return maxtrix
     }
 }
 

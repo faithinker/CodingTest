@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05136DAE295303C400ECBCAA /* Baekjoon_1065.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05136DAD295303C400ECBCAA /* Baekjoon_1065.swift */; };
 		0534E31F295153A900691F0B /* Baekjoon_15649.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0534E31E295153A900691F0B /* Baekjoon_15649.swift */; };
 		0534E3212951978500691F0B /* Baekjoon_9663.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0534E3202951978500691F0B /* Baekjoon_9663.swift */; };
 		0534E3232951BAE000691F0B /* Baekjoon_10819.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0534E3222951BAE000691F0B /* Baekjoon_10819.swift */; };
@@ -83,6 +84,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		05136DAD295303C400ECBCAA /* Baekjoon_1065.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_1065.swift; sourceTree = "<group>"; };
 		0534E31E295153A900691F0B /* Baekjoon_15649.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_15649.swift; sourceTree = "<group>"; };
 		0534E3202951978500691F0B /* Baekjoon_9663.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_9663.swift; sourceTree = "<group>"; };
 		0534E3222951BAE000691F0B /* Baekjoon_10819.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_10819.swift; sourceTree = "<group>"; };
@@ -325,6 +327,7 @@
 				C399DC642834B96E00A68152 /* Baekjoon_2231.swift */,
 				C399DC662834E30200A68152 /* Baekjoon_2798.swift */,
 				C33C1CBC283B7BB000579B0C /* Baekjoon_1018.swift */,
+				05136DAD295303C400ECBCAA /* Baekjoon_1065.swift */,
 			);
 			path = BruteForce;
 			sourceTree = "<group>";
@@ -457,6 +460,7 @@
 				05D79F70293F1C750008154C /* Sequence.swift in Sources */,
 				0574BCFB28E587DD00376808 /* Sol_118667.swift in Sources */,
 				0591F203290777ED0028E40A /* Queue.swift in Sources */,
+				05136DAE295303C400ECBCAA /* Baekjoon_1065.swift in Sources */,
 				C38D322D271127B800E79497 /* Sol_86491.swift in Sources */,
 				056BEC91292361EC002D99CE /* Baekjoon_1654.swift in Sources */,
 				053B97FD2906250800C52524 /* Sol_92341.swift in Sources */,
