@@ -8,33 +8,71 @@
 import Foundation
 
 // [백준 10819] 차이를 최대로 https://www.acmicpc.net/problem/10819 - 브루트포스, 백트래킹
-
+// 순열 => 순서 고려
 class Baekjoon_10819 {
     
     init() {
+        call1()
+        //call2()
+    }
 
+    func call1() {
+        let input = ReadLine().getInt()
+        let arr = ReadLine().getArrInt()
+        print(solution(arr))
+        //print(solution([20, 1, 15, 8, 4, 10]))
+    }
+    
+    
+    func solution(_ arr: [Int]) -> Int {
+        
+        var result = 0
+        
+        var visited = Array(repeating: false, count: arr.count)
+        
+        func cycle(_ now: [Int]) {
+            if now.count == arr.count {
+                var sum = 0
+                for i in 0..<now.count-1 {
+                    sum += abs(now[i] - now[i+1])
+                }
+                result = max(result, sum)
+            }
+            
+            for i in 0..<arr.count {
+                if visited[i] {
+                    continue
+                } else {
+                    visited[i] = true
+                    cycle(now + [arr[i]])
+                    visited[i] = false
+                }
+            }
+        }
+        
+        cycle([])
+        
+        return result
+    }
+
+    
+    // 백준 맞힌 사람의 답안
+    func call2() {
         perm(0)
         print(ans)
         
-        let n = ReadLine().getInt()
+        let _ = ReadLine().getInt()
         let m = ReadLine().getArrInt()
-        print(solution(m))
-        
+        print(solution2(m))
     }
-
+    
     /// n = 6, arr = 20 1 15 8 4 10
     /// result 62
-
-    
-    /*
-     속도 빠른 답안
-     */
-    
+    /// 둘 중 한개만 테스트 할려면 전역변수로 있는 readLine 삭제!
     let N = Int(readLine()!)!
     var A = readLine()!.split(separator: " ").map{Int(String($0))!}
     var ans = Int.min
     
-    var count = 0
 
     func perm(_ depth: Int) {
         if depth == N {
@@ -43,7 +81,6 @@ class Baekjoon_10819 {
                 sum += abs(A[i-1]-A[i])
             }
             ans = max(ans, sum)
-            count += 1
             return
         }
         perm(depth+1)
@@ -57,7 +94,7 @@ class Baekjoon_10819 {
     /*
      순열 배열을 만들고 한번 더 조회하기 때문에 성능상으로 좋지는 않다.
      */
-    func solution(_ arr: [Int]) -> Int {
+    func solution2(_ arr: [Int]) -> Int {
         var result = 0
     
         let permute = Permutation()
