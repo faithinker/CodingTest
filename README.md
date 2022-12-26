@@ -80,7 +80,7 @@
 - 15649 실버3 [N과 M](https://www.acmicpc.net/problem/15649) - 실패!
 - 10819 실버2 [차이를 최대로](https://www.acmicpc.net/problem/10819) - 브루트포스, 순열(순서고려)
 - 2661 실버5 [좋은수열](https://www.acmicpc.net/problem/2661) - 실패!
-
+- 14888 실버1 [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
 ------------------------------------------------------------------------------------------------
 
 ## LeetCode

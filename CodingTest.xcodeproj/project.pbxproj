@@ -27,6 +27,7 @@
 		057B81542927655000195AC8 /* Sol_87389.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057B81532927655000195AC8 /* Sol_87389.swift */; };
 		057B8156292765B500195AC8 /* Sol_133499.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057B8155292765B500195AC8 /* Sol_133499.swift */; };
 		057B815D29277ADE00195AC8 /* Sol_92335.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057B815C29277ADE00195AC8 /* Sol_92335.swift */; };
+		058497DB2959399400698F97 /* Baekjoon_14888.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058497DA2959399400698F97 /* Baekjoon_14888.swift */; };
 		0591F201290771060028E40A /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591F200290771060028E40A /* DFS.swift */; };
 		0591F203290777ED0028E40A /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591F202290777ED0028E40A /* Queue.swift */; };
 		0591F2052907783D0028E40A /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591F2042907783D0028E40A /* BFS.swift */; };
@@ -105,6 +106,7 @@
 		057B81532927655000195AC8 /* Sol_87389.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_87389.swift; sourceTree = "<group>"; };
 		057B8155292765B500195AC8 /* Sol_133499.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_133499.swift; sourceTree = "<group>"; };
 		057B815C29277ADE00195AC8 /* Sol_92335.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_92335.swift; sourceTree = "<group>"; };
+		058497DA2959399400698F97 /* Baekjoon_14888.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_14888.swift; sourceTree = "<group>"; };
 		0591F200290771060028E40A /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
 		0591F202290777ED0028E40A /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		0591F2042907783D0028E40A /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
@@ -331,6 +333,7 @@
 				C399DC662834E30200A68152 /* Baekjoon_2798.swift */,
 				C33C1CBC283B7BB000579B0C /* Baekjoon_1018.swift */,
 				05136DAD295303C400ECBCAA /* Baekjoon_14889.swift */,
+				058497DA2959399400698F97 /* Baekjoon_14888.swift */,
 			);
 			path = BruteForce;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				C329DECD283DBEA000DE5248 /* Baekjoon_1110.swift in Sources */,
 				C31B94DA2833C2BB0059E872 /* Baekjoon_1715.swift in Sources */,
 				C399DC70283624C500A68152 /* PriorityQueue.swift in Sources */,
+				058497DB2959399400698F97 /* Baekjoon_14888.swift in Sources */,
 				C399DC652834B96E00A68152 /* Baekjoon_2231.swift in Sources */,
 				057B815D29277ADE00195AC8 /* Sol_92335.swift in Sources */,
 				C399DC72283624F400A68152 /* Heap.swift in Sources */,
