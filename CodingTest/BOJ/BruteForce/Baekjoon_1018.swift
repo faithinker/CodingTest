@@ -1,5 +1,5 @@
 //
-//  Baekjoon_1018.swift
+//  Baekjoon_1436.swift
 //  CodingTest
 //
 //  Created by pineone on 2022/05/23.
@@ -9,7 +9,7 @@ import Foundation
 
 /// [백준 1436][실버5] 영화감독 숌(https://www.acmicpc.net/problem/1436)
 
-class Baekjoon_1018 {
+class Baekjoon_1436 {
     
     init() {
         solution(num: Int(readLine()!)!)

@@ -52,8 +52,11 @@ import Foundation
 /// 브루트포스 알고리즘 brute force
 /// [백준 1065][실버4] 한수(https://www.acmicpc.net/problem/1065)
 /// [백준 14501][실버3] 퇴사(https://www.acmicpc.net/problem/14501)
-/// [백준 9663][골드5] N-Queen(https://www.acmicpc.net/problem/9663)
 /// [백준 1018][실버5] 체스판 다시 칠하기(https://www.acmicpc.net/problem/1018)
 
 // [프로그래머스 43165] 타겟넘버 https://school.programmers.co.kr/learn/courses/30/lessons/43165 - 깊이/너비 우선 탐색(DFS/BFS)
+
+// Baekjoon_15684
+
+
 

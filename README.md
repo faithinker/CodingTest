@@ -57,6 +57,8 @@
 - 백준 2798 브론즈2 [블랙잭](https://www.acmicpc.net/problem/2798)  - 조합
 - 백준 1436 실버5 [영화감독 숌](https://www.acmicpc.net/problem/1436)
 - 백준 14889 실버2 [스타트와 링크](https://www.acmicpc.net/problem/14889) - 조합 순서 x
+- 14888 실버1 [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
+- 15684 골드3 [사다리 조작](https://www.acmicpc.net/problem/15684) - 실패!
 
 ### 우선순위 큐(힙)
 - 백준 11279 실버2 [최대 힙](https://www.acmicpc.net/problem/11279)    - 실패!
@@ -80,7 +82,12 @@
 - 15649 실버3 [N과 M](https://www.acmicpc.net/problem/15649) - 실패!
 - 10819 실버2 [차이를 최대로](https://www.acmicpc.net/problem/10819) - 브루트포스, 순열(순서고려)
 - 2661 실버5 [좋은수열](https://www.acmicpc.net/problem/2661) - 실패!
-- 14888 실버1 [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
+
+### DFS&BFS
+- 2667 실버1 [단지번호붙이기](https://www.acmicpc.net/problem/2667)
+
+
+
 ------------------------------------------------------------------------------------------------
 
 ## LeetCode
