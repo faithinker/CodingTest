@@ -31,6 +31,7 @@
 		058497DE295A8A0000698F97 /* Baekjoon_2667.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058497DD295A8A0000698F97 /* Baekjoon_2667.swift */; };
 		058497E0295AACDF00698F97 /* Baekjoon_15684.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058497DF295AACDF00698F97 /* Baekjoon_15684.swift */; };
 		058497E2295AC90400698F97 /* Baekjoon_2178.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058497E1295AC90400698F97 /* Baekjoon_2178.swift */; };
+		058497E4295C2AC300698F97 /* Baekjoon_14502.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058497E3295C2AC300698F97 /* Baekjoon_14502.swift */; };
 		0591F201290771060028E40A /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591F200290771060028E40A /* DFS.swift */; };
 		0591F203290777ED0028E40A /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591F202290777ED0028E40A /* Queue.swift */; };
 		0591F2052907783D0028E40A /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591F2042907783D0028E40A /* BFS.swift */; };
@@ -113,6 +114,7 @@
 		058497DD295A8A0000698F97 /* Baekjoon_2667.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_2667.swift; sourceTree = "<group>"; };
 		058497DF295AACDF00698F97 /* Baekjoon_15684.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_15684.swift; sourceTree = "<group>"; };
 		058497E1295AC90400698F97 /* Baekjoon_2178.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_2178.swift; sourceTree = "<group>"; };
+		058497E3295C2AC300698F97 /* Baekjoon_14502.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_14502.swift; sourceTree = "<group>"; };
 		0591F200290771060028E40A /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
 		0591F202290777ED0028E40A /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		0591F2042907783D0028E40A /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 			children = (
 				058497DD295A8A0000698F97 /* Baekjoon_2667.swift */,
 				058497E1295AC90400698F97 /* Baekjoon_2178.swift */,
+				058497E3295C2AC300698F97 /* Baekjoon_14502.swift */,
 			);
 			path = "DFS&BFS";
 			sourceTree = "<group>";
@@ -508,6 +511,7 @@
 				C33C1CBD283B7BB000579B0C /* Baekjoon_1018.swift in Sources */,
 				C33C03ED275D915400124432 /* Two_Sum.swift in Sources */,
 				053BF79A285C41B3002F5AA1 /* Sol_64065.swift in Sources */,
+				058497E4295C2AC300698F97 /* Baekjoon_14502.swift in Sources */,
 				C329DECB283DADB900DE5248 /* Baekjoon_1002.swift in Sources */,
 				C3E36C8E274B2628000955B7 /* Palindrome_number.swift in Sources */,
 				0534E31F295153A900691F0B /* Baekjoon_15649.swift in Sources */,
