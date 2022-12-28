@@ -56,3 +56,98 @@ import Foundation
 
 // [프로그래머스 43165] 타겟넘버 https://school.programmers.co.kr/learn/courses/30/lessons/43165 - 깊이/너비 우선 탐색(DFS/BFS)
 
+/// [백준 16236][골드3] 아기 상어(https://www.acmicpc.net/problem/16236)
+
+/// [백준 2146][골드3] 다리 만들기(https://www.acmicpc.net/problem/2146)
+/// 1. 섬 군락을 찾는다. => BFS
+/// 2. 섬(바다 인접부분)과 섬사이의 모든 거리를 연결한다. => BFS 사용. 엣지 4개만 체크?
+/// ===> 다리 시작점 다리를 1개씩 놓으면서 상하좌우 다른 섬이 연결 가능한지 체크... 안되면 다음 다리 놓기
+/// 3. BFS의 최솟값을 찾는다.
+
+func solution(_ n: Int, _ arr: [[Int]]) {
+    
+    var graph = arr
+    let dx = [0, 0, 1, -1], dy = [1, -1, 0, 0]
+    
+    var islands = [[(Int, Int)]]()
+    
+    
+    
+    func bfs(_ x: Int, _ y: Int) {
+        var area = [(x, y)]
+        var queue = [(x, y)]
+        graph[x][y] = 0
+        
+        
+        while !queue.isEmpty {
+            let temp = queue.removeFirst()
+            
+            for i in 0..<4 {
+                let nx = temp.0 + dx[i], ny = temp.1 + dy[i] // 상하좌우 좌표
+                // 2차원 배열 안에 들어있고, 해당 집이 있는 경우에만 방문 처리 및 카운트 증가 처리
+                if (nx < 0 || nx >= n || ny < 0 || ny >= n) == false && graph[nx][ny] == 1 {
+                    graph[nx][ny] = 0
+                    area.append((nx, ny))
+                    queue.append((nx, ny))
+                }
+            }
+        }
+        islands.append(area)
+    }
+    
+    // 최단거리 = |x2-x1| + |y2-y1| - 1
+    // https://astrid-dm.tistory.com/m/362
+    var result = Int.max
+    
+    
+    
+    
+    for i in 0..<n {
+        for j in 0..<n {
+            if graph[i][j] == 1 {
+                bfs(i, j)
+                //showMatrix(graph)
+            }
+        }
+    }
+    
+    showMatrix(islands)
+    
+}
+
+
+func showMatrix<T>(_ array: [[T]]) {
+    for v in array {
+        print(v)
+    }
+    print("===========================")
+}
+
+//var input = ReadLine().getInt()
+//var mat = [[Int]]()
+//
+//for _ in 0..<input {
+//    mat.append(ReadLine().getArrInt())
+//}
+//
+//solution(mat)
+
+//for v in mat {
+//    print("\(v),")
+//}
+
+var mat2 = [[1, 1, 1, 0, 0, 0, 0, 1, 1, 1],
+            [1, 1, 1, 1, 0, 0, 0, 0, 1, 1],
+            [1, 0, 1, 1, 0, 0, 0, 0, 1, 1],
+            [0, 0, 1, 1, 1, 0, 0, 0, 0, 1],
+            [0, 0, 0, 1, 0, 0, 0, 0, 0, 1],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 1, 1, 0, 0, 0, 0],
+            [0, 0, 0, 0, 1, 1, 1, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
+solution(10, mat2)
+
+
+
