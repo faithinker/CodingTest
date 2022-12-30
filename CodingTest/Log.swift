@@ -13,6 +13,13 @@ class Log {
         let funcName = function.split(separator: "(").first ?? ""
         print("[\(fileName)] \(funcName)(\(line) Line): \(msg ?? "")")
     }
+    
+    func showMatrix<T>(_ array: [[T]]) {
+        for v in array {
+            print(v)
+        }
+        print("===========================")
+    }
 }
 
 

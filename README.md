@@ -87,6 +87,7 @@
 - 2667 실버1 [단지번호붙이기](https://www.acmicpc.net/problem/2667)
 - 2178 실버1 [미로 탐색](https://www.acmicpc.net/problem/2178)
 - 14502 골드4 [연구소](https://www.acmicpc.net/problem/14502)    - 실패!
+- 2146 골드3 [다리 만들기](https://www.acmicpc.net/problem/2146)   - 실패!
 
 ------------------------------------------------------------------------------------------------
 
