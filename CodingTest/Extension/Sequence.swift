@@ -39,3 +39,12 @@ extension Array where Element: Hashable {
         return temp
     }
 }
+
+
+extension Collection where Indices.Iterator.Element == Index {
+    
+    // 배열의 인덱스에 값이 있는지 확인해주는 subscript, Index out of range 방지 첨자
+    public subscript(safe index: Index) -> Iterator.Element? {
+        return (startIndex <= index && index < endIndex) ? self[index] : nil
+    }
+}

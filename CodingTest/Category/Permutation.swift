@@ -8,9 +8,12 @@
 import Foundation
 
 
+// 순열 : 서로 다른 n개의 원소에서 r개를 중복없이 순서에 상관있게 선택하는 혹은 나열하는 것
+
+
 // 출처 : https://velog.io/@qwer15417/Swift-순열과-조합 => 재귀함수로 구현하는 부분
 // https://ios-development.tistory.com/423
-// 순열 : 서로 다른 n개의 원소에서 r개를 중복없이 순서에 상관있게 선택하는 혹은 나열하는 것
+
 
 class Permutation {
     

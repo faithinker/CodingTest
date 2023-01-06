@@ -89,6 +89,12 @@
 - 14502 골드4 [연구소](https://www.acmicpc.net/problem/14502)    - 실패!
 - 2146 골드3 [다리 만들기](https://www.acmicpc.net/problem/2146)   - 실패!
 
+### DP(Dynamic Programming)
+- 1463 실버3 [1로 만들기](https://www.acmicpc.net/problem/1463)   - 실패!
+- 2293 골드4 [동전 1](https://www.acmicpc.net/problem/2293)     
+- 2294 골드4 [동전 2](https://www.acmicpc.net/problem/2294)
+
+
 ------------------------------------------------------------------------------------------------
 
 ## LeetCode
