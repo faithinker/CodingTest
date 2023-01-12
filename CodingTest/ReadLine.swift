@@ -87,6 +87,7 @@ struct ReadLine {
     }
     
     /// N x N 으로 입력된 숫자들을 이차원 배열로 변환
+    /// N x M 이어도 내가 m 부분만 정확하게 맞춰서 입력하면 쓸 수 있다.
     func matrixInt(_ n: Int) -> [[Int]] {
         var maxtrix = [[Int]]()
         // read 변수가 전역변수이기 때문에 클래스 생성시 무조건 입력 받아서 써야한다.

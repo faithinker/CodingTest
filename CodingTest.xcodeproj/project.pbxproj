@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		05136DAE295303C400ECBCAA /* Baekjoon_14889.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05136DAD295303C400ECBCAA /* Baekjoon_14889.swift */; };
 		05136DB0295442DB00ECBCAA /* Baekjoon_2661.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05136DAF295442DB00ECBCAA /* Baekjoon_2661.swift */; };
+		051606B4296FA72600A27FB7 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051606B3296FA72600A27FB7 /* Helper.swift */; };
+		051606B6296FE48100A27FB7 /* GoldMine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051606B5296FE48100A27FB7 /* GoldMine.swift */; };
+		051606BB296FF65100A27FB7 /* SoldierDeploy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051606BA296FF65100A27FB7 /* SoldierDeploy.swift */; };
+		051606BD296FF9B400A27FB7 /* Baekjoon_11053.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051606BC296FF9B400A27FB7 /* Baekjoon_11053.swift */; };
 		05190E532967B67500D62AC1 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05190E522967B67500D62AC1 /* Fibonacci.swift */; };
 		05190E552967DFE600D62AC1 /* Baekjoon_1463.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05190E542967DFE600D62AC1 /* Baekjoon_1463.swift */; };
 		05190E5729680A1500D62AC1 /* Baekjoon_2293.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05190E5629680A1500D62AC1 /* Baekjoon_2293.swift */; };
@@ -98,6 +102,10 @@
 /* Begin PBXFileReference section */
 		05136DAD295303C400ECBCAA /* Baekjoon_14889.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_14889.swift; sourceTree = "<group>"; };
 		05136DAF295442DB00ECBCAA /* Baekjoon_2661.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_2661.swift; sourceTree = "<group>"; };
+		051606B3296FA72600A27FB7 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		051606B5296FE48100A27FB7 /* GoldMine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldMine.swift; sourceTree = "<group>"; };
+		051606BA296FF65100A27FB7 /* SoldierDeploy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoldierDeploy.swift; sourceTree = "<group>"; };
+		051606BC296FF9B400A27FB7 /* Baekjoon_11053.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_11053.swift; sourceTree = "<group>"; };
 		05190E522967B67500D62AC1 /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 		05190E542967DFE600D62AC1 /* Baekjoon_1463.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_1463.swift; sourceTree = "<group>"; };
 		05190E5629680A1500D62AC1 /* Baekjoon_2293.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_2293.swift; sourceTree = "<group>"; };
@@ -186,6 +194,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		051606B7296FF3CB00A27FB7 /* LIS */ = {
+			isa = PBXGroup;
+			children = (
+				051606BC296FF9B400A27FB7 /* Baekjoon_11053.swift */,
+			);
+			path = LIS;
+			sourceTree = "<group>";
+		};
 		05190E512967B65300D62AC1 /* DP */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +210,8 @@
 				05190E5629680A1500D62AC1 /* Baekjoon_2293.swift */,
 				05190E58296823FA00D62AC1 /* Baekjoon_2294.swift */,
 				05F328B4296FA26700208EAC /* AntWarrior.swift */,
+				051606B5296FE48100A27FB7 /* GoldMine.swift */,
+				051606BA296FF65100A27FB7 /* SoldierDeploy.swift */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -212,6 +230,7 @@
 		05423189282F849100C6E776 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				051606B7296FF3CB00A27FB7 /* LIS */,
 				05190E512967B65300D62AC1 /* DP */,
 				058497DC295A897C00698F97 /* DFS&BFS */,
 				0534E31D2951537E00691F0B /* BackTracking */,
@@ -332,6 +351,7 @@
 				C33A6F3326EF3534001AC96A /* main.swift */,
 				05DCD37128327E840070B0F7 /* ReadLine.swift */,
 				C38D322F27112F8200E79497 /* Log.swift */,
+				051606B3296FA72600A27FB7 /* Helper.swift */,
 				05D79F6E293F1C610008154C /* Extension */,
 				0591F1FF290770E40028E40A /* Category */,
 				C399DC6E2836247C00A68152 /* DataStructure */,
@@ -501,6 +521,7 @@
 				C30918E22833394F00BBA72D /* Baekjoon_11399.swift in Sources */,
 				056BEC9929237E66002D99CE /* Baekjoon_2110.swift in Sources */,
 				05D3EC442853388400418EF6 /* Sol_62048.swift in Sources */,
+				051606BB296FF65100A27FB7 /* SoldierDeploy.swift in Sources */,
 				C399DC672834E30200A68152 /* Baekjoon_2798.swift in Sources */,
 				0542318B282F850F00C6E776 /* Baekjoon_5585.swift in Sources */,
 				C300F4512829F07E000E8624 /* Sol_68935.swift in Sources */,
@@ -521,10 +542,13 @@
 				0591F203290777ED0028E40A /* Queue.swift in Sources */,
 				05136DAE295303C400ECBCAA /* Baekjoon_14889.swift in Sources */,
 				C38D322D271127B800E79497 /* Sol_86491.swift in Sources */,
+				051606BD296FF9B400A27FB7 /* Baekjoon_11053.swift in Sources */,
 				056BEC91292361EC002D99CE /* Baekjoon_1654.swift in Sources */,
+				051606B6296FE48100A27FB7 /* GoldMine.swift in Sources */,
 				053B97FD2906250800C52524 /* Sol_92341.swift in Sources */,
 				C33C03EF275D924200124432 /* Sol_81302.swift in Sources */,
 				056BEC95292367BB002D99CE /* Baekjoon_10815.swift in Sources */,
+				051606B4296FA72600A27FB7 /* Helper.swift in Sources */,
 				056BEC9729237DAC002D99CE /* Baekjoon_2512.swift in Sources */,
 				05D79F6B293F15FC0008154C /* Permutation.swift in Sources */,
 				C33A6F3426EF3534001AC96A /* main.swift in Sources */,
