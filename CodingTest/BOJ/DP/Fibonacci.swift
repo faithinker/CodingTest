@@ -40,11 +40,8 @@ class Fibonacci {
     func call() {
         print(topDownFibo(6))
         
-        print(bottomUpFibo(50))
+//        print(bottomUpFibo(50))
     }
-    
-    
-    var d = Array(repeating: 0, count: 200)
 
     // 기본형
     func fibo(_ x: Int) -> Int {
@@ -55,6 +52,8 @@ class Fibonacci {
         return fibo(x - 1) + fibo(x - 2)
     }
 
+    var d = Array(repeating: 0, count: 200)
+    
     // 위에서 아래로..
     func topDownFibo(_ x: Int) -> Int {
         Swift.print("f(\(x)) ")
