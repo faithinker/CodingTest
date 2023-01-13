@@ -94,9 +94,11 @@
 - 2293 골드4 [동전 1](https://www.acmicpc.net/problem/2293)     
 - 2294 골드4 [동전 2](https://www.acmicpc.net/problem/2294)
 
-### LIS(Longest Increase Sequence)
+### LIS(Longest Increase Sequence) 가장 긴 증가하는 부분 수열
 - 11053 실버2 [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)
-
+- 16236 골드4 [가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054)
+- 11055 실버2 [가장 큰 증가 부분 수열](https://www.acmicpc.net/problem/11055) - 부분 실패!
+- 11722 실버2 [가장 긴 감소하는 부분 수열](https://www.acmicpc.net/problem/11722)
 
 ------------------------------------------------------------------------------------------------
 

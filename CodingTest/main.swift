@@ -64,8 +64,16 @@ import Foundation
  가장 긴 증가하는 부분 수열 LIS
  https://blog.naver.com/jhc9639/221449445864
  
- 11054 / 11055 / 11722 / 12015
- https://www.acmicpc.net/problem/11054
+  11055 / 11722 / 12015
+ https://www.acmicpc.net/problem/11722
  
  */
+
+
+/// [백준 11722][실버2] 가장 긴 감소하는 부분 수열(https://www.acmicpc.net/problem/11722)
+
+
+
+/// [백준 12015][골드2] 가장 긴 증가하는 부분 수열 2(https://www.acmicpc.net/problem/12015)
+
 

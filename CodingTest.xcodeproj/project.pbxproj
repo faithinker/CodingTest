@@ -13,6 +13,8 @@
 		051606B6296FE48100A27FB7 /* GoldMine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051606B5296FE48100A27FB7 /* GoldMine.swift */; };
 		051606BB296FF65100A27FB7 /* SoldierDeploy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051606BA296FF65100A27FB7 /* SoldierDeploy.swift */; };
 		051606BD296FF9B400A27FB7 /* Baekjoon_11053.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051606BC296FF9B400A27FB7 /* Baekjoon_11053.swift */; };
+		051606BF2970F5AE00A27FB7 /* Baekjoon_11054.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051606BE2970F5AE00A27FB7 /* Baekjoon_11054.swift */; };
+		051606C12971598C00A27FB7 /* Baekjoon_11055.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051606C02971598C00A27FB7 /* Baekjoon_11055.swift */; };
 		05190E532967B67500D62AC1 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05190E522967B67500D62AC1 /* Fibonacci.swift */; };
 		05190E552967DFE600D62AC1 /* Baekjoon_1463.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05190E542967DFE600D62AC1 /* Baekjoon_1463.swift */; };
 		05190E5729680A1500D62AC1 /* Baekjoon_2293.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05190E5629680A1500D62AC1 /* Baekjoon_2293.swift */; };
@@ -106,6 +108,8 @@
 		051606B5296FE48100A27FB7 /* GoldMine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldMine.swift; sourceTree = "<group>"; };
 		051606BA296FF65100A27FB7 /* SoldierDeploy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoldierDeploy.swift; sourceTree = "<group>"; };
 		051606BC296FF9B400A27FB7 /* Baekjoon_11053.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_11053.swift; sourceTree = "<group>"; };
+		051606BE2970F5AE00A27FB7 /* Baekjoon_11054.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_11054.swift; sourceTree = "<group>"; };
+		051606C02971598C00A27FB7 /* Baekjoon_11055.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_11055.swift; sourceTree = "<group>"; };
 		05190E522967B67500D62AC1 /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 		05190E542967DFE600D62AC1 /* Baekjoon_1463.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_1463.swift; sourceTree = "<group>"; };
 		05190E5629680A1500D62AC1 /* Baekjoon_2293.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_2293.swift; sourceTree = "<group>"; };
@@ -198,6 +202,8 @@
 			isa = PBXGroup;
 			children = (
 				051606BC296FF9B400A27FB7 /* Baekjoon_11053.swift */,
+				051606BE2970F5AE00A27FB7 /* Baekjoon_11054.swift */,
+				051606C02971598C00A27FB7 /* Baekjoon_11055.swift */,
 			);
 			path = LIS;
 			sourceTree = "<group>";
@@ -506,6 +512,7 @@
 				C399DC652834B96E00A68152 /* Baekjoon_2231.swift in Sources */,
 				057B815D29277ADE00195AC8 /* Sol_92335.swift in Sources */,
 				C399DC72283624F400A68152 /* Heap.swift in Sources */,
+				051606BF2970F5AE00A27FB7 /* Baekjoon_11054.swift in Sources */,
 				C30918EF2833834E00BBA72D /* Baekjoon_1946.swift in Sources */,
 				C3252464283B702D0029A63F /* Sol_42840.swift in Sources */,
 				05190E532967B67500D62AC1 /* Fibonacci.swift in Sources */,
@@ -548,6 +555,7 @@
 				053B97FD2906250800C52524 /* Sol_92341.swift in Sources */,
 				C33C03EF275D924200124432 /* Sol_81302.swift in Sources */,
 				056BEC95292367BB002D99CE /* Baekjoon_10815.swift in Sources */,
+				051606C12971598C00A27FB7 /* Baekjoon_11055.swift in Sources */,
 				051606B4296FA72600A27FB7 /* Helper.swift in Sources */,
 				056BEC9729237DAC002D99CE /* Baekjoon_2512.swift in Sources */,
 				05D79F6B293F15FC0008154C /* Permutation.swift in Sources */,
