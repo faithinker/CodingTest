@@ -76,6 +76,7 @@
 - 10815 실버5 [숫자카드](https://www.acmicpc.net/problem/10815)
 - 2512 실버3 [예산](https://www.acmicpc.net/problem/2512)
 - 2110 실버 [공유기 설치](https://www.acmicpc.net/problem/2110)    - 실패!
+- 12015 골드2 [가장 긴 증가하는 부분 수열 2](https://www.acmicpc.net/problem/12015)  - 실패!
 
 ### 백트래킹
 - 9663 골드4 [N-Queen](https://www.acmicpc.net/problem/9663)  - 실패!

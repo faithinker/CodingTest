@@ -45,6 +45,8 @@ import Foundation
  팁 : 여러줄 출력할때 String으로 합친다음
  var result = "\(Value)\n"
  result.removeLast() 해주는게 좋다!
+ 
+ 백준 예제값 복사한다음 붙여넣기 하기! 굳이 일일히 키보드 입력 안해줘도 된다.
  */
 
 /// 알고리즘 출처 : https://github.com/raywenderlich/swift-algorithm-club/tree/master/Heap
@@ -58,22 +60,5 @@ import Foundation
 
 /// [백준 16236][골드3] 아기 상어(https://www.acmicpc.net/problem/16236)
 
-
-/*
- TODO: LIS 문제 풀어보기!!
- 가장 긴 증가하는 부분 수열 LIS
- https://blog.naver.com/jhc9639/221449445864
- 
-  11055 / 11722 / 12015
- https://www.acmicpc.net/problem/11722
- 
- */
-
-
-/// [백준 11722][실버2] 가장 긴 감소하는 부분 수열(https://www.acmicpc.net/problem/11722)
-
-
-
-/// [백준 12015][골드2] 가장 긴 증가하는 부분 수열 2(https://www.acmicpc.net/problem/12015)
-
+// TODO: DP 이친수부터.. 하루에 2~3문제씩! => DP 다하고 이코테 최단경로, 구간합(누적합) 문제풀이
 
