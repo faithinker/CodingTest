@@ -23,4 +23,15 @@ class Helper {
             }
         }
     }
+    
+    func logMatrix(_ x: [[Int]]) {
+        for i in x {
+            print(i, terminator: "\n")
+        }
+    }
+    
+    /// dp[0][1] 과 같은 형식으로 출력합니다.
+    func matrix(_ name: String, _ x: Int, _ y: Int) -> String {
+        return "\(name)[\(x)][\(y)]"
+    }
 }

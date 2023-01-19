@@ -18,11 +18,12 @@ import Foundation
  
  */
 
+// 이코테 DP 개미전사 26분 50초
 
 class AntWarrior {
     
     func solution(_ n: Int, _ arr: [Int]) -> Int {
-        var dp = Array(repeating: 0, count: 200)
+        var dp = Array(repeating: 0, count: n)
         
         dp[0] = arr[0]
         dp[1] = max(arr[0], arr[1])

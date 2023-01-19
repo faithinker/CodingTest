@@ -76,7 +76,7 @@ class Fibonacci {
 
     // 작은 문제부터 먼저 해결한 다음에, 먼저 해결해 놓았던 작은 문제들을 조합해서 앞으로의 큰 문제들을 차례대로 구해나갈 수 있다.
     func bottomUpFibo(_ n: Int) -> Int {
-        var dp = Array(repeating: 0, count: 200)
+        var dp = Array(repeating: 0, count: n)
 
         dp[1] = 1
         dp[2] = 1
