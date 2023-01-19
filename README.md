@@ -103,6 +103,9 @@
 - 11055 실버2 [가장 큰 증가 부분 수열](https://www.acmicpc.net/problem/11055) - 부분 실패!
 - 11722 실버2 [가장 긴 감소하는 부분 수열](https://www.acmicpc.net/problem/11722)
 
+### LCS(Longest Common Subsequence) 최장 공통 부분 서열 문제
+- 9251 골드5 [LCS](https://www.acmicpc.net/problem/9251) - 실패!
+
 ### Knapsack 냅색
 - 12865 골드5 [평범한 배낭](https://www.acmicpc.net/problem/12865) - 실패! 복습 필요!
 
