@@ -1,4 +1,14 @@
 /*
+  ```
+  var pq = PriorityQueue<Int>(sort: >)
+  pq.deque
+  pq.enqueue([1, 2, 3, 7, 4])
+  
+  for _ in 0..<pq.count {
+      print(pq.dequeue()!, terminator: " ")
+  }
+  ```
+ 
   Priority Queue, a queue where the most "important" items are at the front of
   the queue.
 
@@ -37,6 +47,12 @@ public struct PriorityQueue<T> {
     heap.insert(element)
   }
 
+  public mutating func enqueue(_ elements: [T]) {
+      for element in elements {
+          heap.insert(element)
+      }
+  }
+    
   public mutating func dequeue() -> T? {
     return heap.remove()
   }

@@ -21,10 +21,10 @@ struct ReadLine {
     
     func multipleWithIntTuple(num: Int) -> [(Int, Int)] {
         
-        var arrIntTuple: [(Int, Int)] = [getTupleInt()]
+        var arrIntTuple: [(Int, Int)] = [getTwoTupleInt()]
         
         for _ in 1..<num {
-            arrIntTuple.append(getTupleInt(newRead: readLine()))
+            arrIntTuple.append(getTwoTupleInt(newRead: readLine()))
         }
         
         return arrIntTuple
@@ -70,7 +70,7 @@ struct ReadLine {
         return Int(read)!
     }
     
-    func getTupleInt(newRead: String? = nil) -> (Int, Int) {
+    func getTwoTupleInt(newRead: String? = nil) -> (Int, Int) {
         let first: Int
         let second: Int
         
@@ -83,7 +83,10 @@ struct ReadLine {
         }
 
         return (first, second)
-        
+    }
+    
+    func getThreeTupleInt() -> (Int, Int, Int) {
+        return (getArrInt()[0], getArrInt()[1], getArrInt()[2])
     }
     
     /// N x N 으로 입력된 숫자들을 이차원 배열로 변환
