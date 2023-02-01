@@ -19,5 +19,78 @@ import Foundation
 
 /// [백준 11404][골드4] 플로이드(https://www.acmicpc.net/problem/11404)
 class Baekjoon_11404 {
+    let inf = Int(1e9)
     
+    func solution(_ n: Int, _ m: Int, _ graphs: [[Int]]) {
+        
+        var graph = graphs
+        
+        for _ in 0..<m {
+            let (a, b, c) = ReadLine().getThreeTupleInt() // 시작, 도착, 비용
+            graph[a][b] = min(graph[a][b], c)
+        }
+
+        for i in 1..<n { // 자기 자신과 만나는 좌표 = 0
+            graph[i][i] = 0
+        }
+
+
+        for k in 1..<n {
+            for i in 1..<n {
+                for j in 1..<n {
+                    graph[i][j] = min(graph[i][j], graph[i][k] + graph[k][j])
+                }
+            }
+        }
+
+        for i in 1..<n {
+            for j in 1..<n {
+                print(graph[i][j] == inf ? 0 : graph[i][j], terminator: " ")
+                //print(graph[i][j], terminator: " ")
+            }
+            print("")
+        }
+    }
+    
+    
+    /*
+    4
+    7
+    1 2 4
+    1 4 6
+    2 1 3
+    2 3 7
+    3 1 5
+    3 4 4
+    4 3 2
+    답
+    0 4 8 6
+    3 0 7 9
+    5 9 0 4
+    7 11 2 0
+    */
+    
+    func call() {
+        let n = ReadLine().getInt() + 1, m = ReadLine().getInt() // 노드와 간선의 갯수, 1부터 n+1 까지 그래프 표기
+        
+        var graph: [[Int]] = Array(repeating: Array(repeating: inf, count: n), count: n)
+
+        solution(n, m, graph)
+    }
+    
+    func call2() {
+        let n = 4, m = 7 // 노드와 간선의 갯수
+        var graph = Array(repeating: Array(repeating: 9, count: n + 1), count: n + 1) //Int.max
+
+        var grpah = [[],
+                     [(2, 4), (4, 6)],
+                     [(1, 3), (3, 7)],
+                     [(1, 5), (4, 4)],
+                     [(3, 2)]]
+        
+        solution(n, m, graph)
+    }
+    
+
+
 }

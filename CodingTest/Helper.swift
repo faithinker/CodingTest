@@ -34,4 +34,8 @@ class Helper {
     func matrix(_ name: String, _ x: Int, _ y: Int) -> String {
         return "\(name)[\(x)][\(y)]"
     }
+    
+    func divider() {
+        print("====================================")
+    }
 }

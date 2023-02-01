@@ -86,7 +86,8 @@ struct ReadLine {
     }
     
     func getThreeTupleInt() -> (Int, Int, Int) {
-        return (getArrInt()[0], getArrInt()[1], getArrInt()[2])
+        let arr = getArrInt()
+        return (arr[0], arr[1], arr[2])
     }
     
     /// N x N 으로 입력된 숫자들을 이차원 배열로 변환

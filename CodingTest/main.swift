@@ -66,52 +66,5 @@ import Foundation
 /// 오토에버 코테 대비, 개념학습 전영역 한문제씩 풀기
 
 
- 
-let n = 4, m = 7 // 노드와 간선의 갯수
 
 
-var graph = Array(repeating: Array(repeating: 9, count: n + 1), count: n + 1) //Int.max
-
-//var grpah = [[],
-//             [(2, 4), (4, 6)],
-//             [(1, 3), (3, 7)],
-//             [(1, 5), (4, 4)],
-//             [(3, 2)]]
-
-/*
-4 7
-1 2 4
-1 4 6
-2 1 3
-2 3 7
-3 1 5
-3 4 4
-4 3 2
- 
- 
- */
-
-
-
-for i in 1..<n + 1 {
-    graph[i][i] = 0
-}
-
-for _ in 0..<m {
-    let (a, b, c) = ReadLine().getThreeTupleInt()
-    graph[a][b] = c
-}
-
-for k in 1..<n + 1 {
-    for i in 1..<n + 1 {
-        for j in 1..<n + 1 {
-            graph[i][j] = min(graph[i][j], graph[i][k] + graph[k][j])
-        }
-    }
-}
-
-for i in 1..<n + 1 {
-    for j in 1..<n + 1 {
-        print(graph[i][j] == Int.max ? "INF" : graph[i][j], terminator: " ")
-    }
-}

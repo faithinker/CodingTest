@@ -7,7 +7,8 @@
 
 import Foundation
 
-/// 읽고 쓰기 빠르게
+/// 읽고 쓰기 빠르게 readLine 대신 사용
+/// let io = IO(); io.readInt();
 final class IO {
     private let buffer:[UInt8]
     private var index: Int = 0

@@ -55,6 +55,51 @@ class Baekjoon_1753 {
     var n = 0
     var graph = [[(Int, Int)]]()
     
+    /*
+입력
+4 3
+1
+1 2 10
+2 3 10
+3 4 10
+정답
+0
+10
+20
+30
+
+입력
+2 1
+1
+1 2 2
+정답
+0
+2
+
+입력
+10 9
+1
+1 2 9
+2 8 9
+7 3 10
+5 6 6
+3 4 7
+4 5 2
+6 10 8
+8 5 4
+2 3 10
+정답
+0
+9
+19
+26
+22
+28
+INF
+18
+INF
+36
+     */
     
     func call() {
         let input = ReadLine().getArrInt()
@@ -62,15 +107,15 @@ class Baekjoon_1753 {
         let start = ReadLine().getInt()
         var graph = Array(repeating: Array<(Int, Int)>(), count: n + 1) // 0번 x. 1번부터 시작
 
-        print("graph: \(graph)")
+        //print("graph: \(graph)")
 
-        for _ in 0..<n + 1 {
+        for _ in 0..<m {
             /// a: 출발지, b: 도착지, c: 가중치
             let (a, b, c) = ReadLine().getThreeTupleInt()
             graph[a].append((b, c))
         }
 
-        print("graph2: \(graph)")
+        //print("graph2: \(graph)")
         
         self.n = n
         self.graph = graph
@@ -81,12 +126,16 @@ class Baekjoon_1753 {
     func sample() { // Sample Data
         let n = 5, m = 6
         let start = 1
-        var graph = [[],
+        // 배열 index = 노드, 튜플 (도착지, 거리)
+        let graph = [[],
                      [(2, 2), (3, 3)],
                      [(3, 4), (4, 5)],
                      [(4, 6)],
                      [],
                      [(1, 1)]]
+        
+        self.n = n
+        self.graph = graph
         
         dijkstra(start)
     }
@@ -95,20 +144,22 @@ class Baekjoon_1753 {
     
 
     func dijkstra(_ start: Int) {
-        var distance = Array(repeating: Int.max, count: n + 1)
+        var distance = Array(repeating: Int.max, count: n + 1) // DP 역할
         distance[start] = 0 // 출발지 거리 = 0
         
         var pq = PriorityQueue<(Int, Int)>(sort: { $0.0 < $1.0 }) //(거리, 노드)
         pq.enqueue((0, start))
         
         while pq.isEmpty == false { // 우선순위 큐가 빌때까지 수행
+            //print("pq: \(pq.nodes())")
             let (curCost, curNode) = pq.dequeue()!
             
-            if distance[curNode] < curCost { continue } // 이미 처리된 적 있는 노드라면 Skip
+            if distance[curNode] < curCost { continue } // 저장된 값보다 현재 값이 크다면 다음 큐 순회
             
             for n in graph[curNode] {
                 let (nextNode, nextCost) = (n.0, n.1)
                 let sum = nextCost + curCost
+                
                 if distance[nextNode] > sum { // 기존값 > 현재값 + 가중치
                     distance[nextNode] = sum
                     pq.enqueue((sum, nextNode))
