@@ -29,12 +29,12 @@
 
 2022 KAKAO TECH INTERNSHIP
 
-- 118666 [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666) - 
+- 118666 [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)
 - 118667 [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667) - 투포인터, 실패! 
 
 2022 KAKAO BLIND RECRUITMENT
 
-- 92341 [주차 요금 계산])https://school.programmers.co.kr/learn/courses/30/lessons/92341)
+- 92341 [주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341)
 - 92334 [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334)
 - 92335 [레벨 2] [k진수에서 소수 개수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/92335) - 실패!
 - 92342 [양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342) - DFS + 탐색 + 그리디, 실패!!!
@@ -71,7 +71,7 @@
 ### 이분 탐색
 - 1920 실버4 [수 찾기](https://www.acmicpc.net/problem/1920)
 - 2805 실버2 [나무 자르기](https://www.acmicpc.net/problem/2805)
-- 1654 실버2 [랜선 자르기(https://www.acmicpc.net/problem/1654)
+- 1654 실버2 [랜선 자르기](https://www.acmicpc.net/problem/1654)
 - 10816 실버4 [수 찾기2](https://www.acmicpc.net/problem/10816)
 - 10815 실버5 [숫자카드](https://www.acmicpc.net/problem/10815)
 - 2512 실버3 [예산](https://www.acmicpc.net/problem/2512)

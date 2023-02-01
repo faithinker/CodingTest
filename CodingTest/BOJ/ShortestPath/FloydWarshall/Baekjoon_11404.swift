@@ -34,7 +34,6 @@ class Baekjoon_11404 {
             graph[i][i] = 0
         }
 
-
         for k in 1..<n {
             for i in 1..<n {
                 for j in 1..<n {
@@ -73,16 +72,16 @@ class Baekjoon_11404 {
     func call() {
         let n = ReadLine().getInt() + 1, m = ReadLine().getInt() // 노드와 간선의 갯수, 1부터 n+1 까지 그래프 표기
         
-        var graph: [[Int]] = Array(repeating: Array(repeating: inf, count: n), count: n)
+        let graph: [[Int]] = Array(repeating: Array(repeating: inf, count: n), count: n)
 
         solution(n, m, graph)
     }
     
     func call2() {
         let n = 4, m = 7 // 노드와 간선의 갯수
-        var graph = Array(repeating: Array(repeating: 9, count: n + 1), count: n + 1) //Int.max
+        let graph = Array(repeating: Array(repeating: 9, count: n + 1), count: n + 1) //Int.max
 
-        var grpah = [[],
+        let grpah = [[],
                      [(2, 4), (4, 6)],
                      [(1, 3), (3, 7)],
                      [(1, 5), (4, 4)],

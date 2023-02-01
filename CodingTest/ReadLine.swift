@@ -71,20 +71,17 @@ struct ReadLine {
     }
     
     func getTwoTupleInt(newRead: String? = nil) -> (Int, Int) {
-        let first: Int
-        let second: Int
-        
         if let text = newRead {
-            first = Int(String(text.split(separator: " ").first!))!
-            second = Int(String(text.split(separator: " ").last!))!
+            let first = Int(String(text.split(separator: " ").first!))!
+            let second = Int(String(text.split(separator: " ").last!))!
+            return (first, second)
         } else {
-            first = Int(String(read.split(separator: " ").first!))!
-            second = Int(String(read.split(separator: " ").last!))!
+            let arr = getArrInt()
+            return (arr[0], arr[1])
         }
-
-        return (first, second)
     }
     
+    /// 가끔 index Range Out of 뜨는데 재입력하면 된다. 또는 arr만 따로 출력해서 테스트도 필요하다.
     func getThreeTupleInt() -> (Int, Int, Int) {
         let arr = getArrInt()
         return (arr[0], arr[1], arr[2])
