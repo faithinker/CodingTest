@@ -19,7 +19,7 @@ import Foundation
 
 /// [백준 11404][골드4] 플로이드(https://www.acmicpc.net/problem/11404)
 class Baekjoon_11404 {
-    let inf = Int(1e9)
+    let inf = Int(1e9) // 무한을 의미하는 값으로 10억 설정
     
     func solution(_ n: Int, _ m: Int, _ graphs: [[Int]]) {
         
