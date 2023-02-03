@@ -50,14 +50,12 @@ class Kruskal {
             // 사이클 아닌 경우만 집합 포함
             if uf.findParent(parent, a) != uf.findParent(parent, b) {
                 uf.unionParent(&parent, &a, &b)
-                print(aa, bb, ": \(cost)")
                 result += cost
             }
         }
         
         print(result)
     }
-    
     
     /*
     노드 갯수, 간선 갯수

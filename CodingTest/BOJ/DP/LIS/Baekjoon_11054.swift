@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// [백준 16236][골드4] 가장 긴 바이토닉 부분 수열(https://www.acmicpc.net/problem/11054)
+/// [백준 11054][골드4] 가장 긴 바이토닉 부분 수열(https://www.acmicpc.net/problem/11054)
 
 class Baekjoon_11054 {
     
