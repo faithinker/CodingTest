@@ -57,6 +57,8 @@
 		05A5F44229769A0700D4A4C1 /* Baekjoon_11722.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A5F44129769A0700D4A4C1 /* Baekjoon_11722.swift */; };
 		05A5F4442976B75A00D4A4C1 /* Baekjoon_12015.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A5F4432976B75A00D4A4C1 /* Baekjoon_12015.swift */; };
 		05B34D09298C9432006E87D0 /* FutureCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B34D08298C9432006E87D0 /* FutureCity.swift */; };
+		05B34D0C298CA975006E87D0 /* UnionFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B34D0B298CA975006E87D0 /* UnionFind.swift */; };
+		05B34D0E298CCDBC006E87D0 /* Kruskal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B34D0D298CCDBC006E87D0 /* Kruskal.swift */; };
 		05C198382829346E005D8049 /* Sol_92334.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C198372829346E005D8049 /* Sol_92334.swift */; };
 		05C1983A282936F1005D8049 /* Sol_12948.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C19839282936F1005D8049 /* Sol_12948.swift */; };
 		05D3EC442853388400418EF6 /* Sol_62048.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D3EC432853388400418EF6 /* Sol_62048.swift */; };
@@ -164,6 +166,8 @@
 		05A5F44129769A0700D4A4C1 /* Baekjoon_11722.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_11722.swift; sourceTree = "<group>"; };
 		05A5F4432976B75A00D4A4C1 /* Baekjoon_12015.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_12015.swift; sourceTree = "<group>"; };
 		05B34D08298C9432006E87D0 /* FutureCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureCity.swift; sourceTree = "<group>"; };
+		05B34D0B298CA975006E87D0 /* UnionFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionFind.swift; sourceTree = "<group>"; };
+		05B34D0D298CCDBC006E87D0 /* Kruskal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kruskal.swift; sourceTree = "<group>"; };
 		05C198372829346E005D8049 /* Sol_92334.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_92334.swift; sourceTree = "<group>"; };
 		05C19839282936F1005D8049 /* Sol_12948.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_12948.swift; sourceTree = "<group>"; };
 		05D3EC432853388400418EF6 /* Sol_62048.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_62048.swift; sourceTree = "<group>"; };
@@ -265,6 +269,7 @@
 		05423189282F849100C6E776 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				05B34D0A298CA953006E87D0 /* GraphETC */,
 				0581CF9C2987B1FB0096695B /* ShortestPath */,
 				05190E512967B65300D62AC1 /* DP */,
 				058497DC295A897C00698F97 /* DFS&BFS */,
@@ -375,6 +380,15 @@
 				05D79F71294029CC0008154C /* PrimeNumber.swift */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		05B34D0A298CA953006E87D0 /* GraphETC */ = {
+			isa = PBXGroup;
+			children = (
+				05B34D0B298CA975006E87D0 /* UnionFind.swift */,
+				05B34D0D298CCDBC006E87D0 /* Kruskal.swift */,
+			);
+			path = GraphETC;
 			sourceTree = "<group>";
 		};
 		05D79F6E293F1C610008154C /* Extension */ = {
@@ -615,6 +629,7 @@
 				05190E59296823FA00D62AC1 /* Baekjoon_2294.swift in Sources */,
 				05190E552967DFE600D62AC1 /* Baekjoon_1463.swift in Sources */,
 				056BEC8F29221B3F002D99CE /* Baekjoon_2805.swift in Sources */,
+				05B34D0C298CA975006E87D0 /* UnionFind.swift in Sources */,
 				C38D323027112F8200E79497 /* Log.swift in Sources */,
 				C38D3234271135AF00E79497 /* Test.swift in Sources */,
 				C329DECF283DFD0800DE5248 /* Baekjoon_7568.swift in Sources */,
@@ -665,6 +680,7 @@
 				0534E31F295153A900691F0B /* Baekjoon_15649.swift in Sources */,
 				058497E2295AC90400698F97 /* Baekjoon_2178.swift in Sources */,
 				C399DC752836250700A68152 /* HeapTests.swift in Sources */,
+				05B34D0E298CCDBC006E87D0 /* Kruskal.swift in Sources */,
 				0574BCF928E5640F00376808 /* Sol_118666.swift in Sources */,
 				05136DB0295442DB00ECBCAA /* Baekjoon_2661.swift in Sources */,
 				0591F2052907783D0028E40A /* BFS.swift in Sources */,
