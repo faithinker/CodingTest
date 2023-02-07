@@ -60,7 +60,70 @@ import Foundation
 
 /// [백준 16236][골드3] 아기 상어(https://www.acmicpc.net/problem/16236)
 
-/// 20일까지 LCS, DP 여기까지만 하고
 /// => 구간합(누적합), 위상정렬 문제풀이
 
 
+/// N채의 집
+/// 트럭 3대
+///
+
+let n = 5
+var houses = Array(0..<n)
+
+
+
+// 각각의 갯수 + 가장 멀리있는 위치의 왕복거리
+
+public func solution(_ d: [Int], _ t: [String]) -> Int {
+    var dp = Array(repeating: 0, count: d.count+1) // 거리 왕복 시간
+    
+    /// P 플라스틱, G 유리, M 금속
+    
+    var (pCount, gCount, mCount) = (0, 0, 0)
+    var (pIndex, gIndex, mIndex) = (0, 0, 0) //((0, 0), (0, 0), (0, 0))
+    
+    
+    for i in 1...d.count {
+        dp[i] = dp[i-1] + d[i-1] * 2
+    }
+    
+//    print("dp: \(dp)")
+    
+    for i in 0..<t.count {
+        for j in t[i] {
+            let word = String(j)
+            //matrix[i+1].updateValue(matrix[i+1][word]! + 1, forKey: word)
+            
+            switch word {
+            case "P":
+                pIndex = i + 1
+                pCount += 1
+            case "G":
+                gIndex = i + 1
+                gCount += 1
+            default:
+                mIndex = i + 1
+                mCount += 1
+            }
+        }
+    }
+    
+//    print(pCount, gCount, mCount)
+//    print("========= Index ========")
+//    print(pIndex, gIndex, mIndex)
+    
+    pCount += dp[pIndex]
+    gCount += dp[gIndex]
+    mCount += dp[mIndex]
+    
+    let result = max(pCount, gCount, mCount)
+    
+    print("result: \(result)")
+    
+    return 0
+}
+
+
+solution([2, 5], ["PGP", "M"]) // 15
+solution([3, 2, 4], ["MPM", "", "G"]) // 19
+solution([2, 1, 1, 1, 2], ["", "PP", "PP", "GM", ""]) // 12
