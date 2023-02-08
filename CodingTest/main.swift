@@ -61,3 +61,10 @@ import Foundation
 /// [백준 16236][골드3] 아기 상어(https://www.acmicpc.net/problem/16236)
 
 /// => 구간합(누적합), 위상정렬 문제풀이
+
+
+// 부분 누적합!!!
+/// [백준 3020][골드5] 개똥벌레(https://www.acmicpc.net/problem/3020)
+// Baekjoon_3020
+
+

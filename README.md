@@ -90,6 +90,12 @@
 - 14502 골드4 [연구소](https://www.acmicpc.net/problem/14502)    - 실패!
 - 2146 골드3 [다리 만들기](https://www.acmicpc.net/problem/2146)   - 실패!
 
+### 구간합 구하기 (Prefix sum array, Segment Sum)
+- 11659 실버3 [구간 합 구하기 4](https://www.acmicpc.net/problem/11659)
+- 11660 실버1 [구간 합 구하기 5](https://www.acmicpc.net/problem/11660)
+- 3020 골드5 [개똥벌레](https://www.acmicpc.net/problem/3020) - TODO!! 해야함!
+
+
 ### DP(Dynamic Programming)
 - 1463 실버3 [1로 만들기](https://www.acmicpc.net/problem/1463)   - 실패!
 - 2293 골드4 [동전 1](https://www.acmicpc.net/problem/2293)     
