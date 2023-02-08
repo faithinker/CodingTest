@@ -11,7 +11,7 @@ class Mobility_Task02 {
     
     /// 각각의 갯수 + 가장 멀리있는 위치의 왕복거리
     /// P 플라스틱, G 유리, M 금속
-    public func solution(_ d: [Int], _ t: [String]) -> Int {
+    func solution(_ d: [Int], _ t: [String]) -> Int {
         var dp = Array(repeating: 0, count: d.count+1) // 거리 왕복 시간
         
         var (pCount, gCount, mCount) = (0, 0, 0)
