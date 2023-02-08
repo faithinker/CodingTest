@@ -39,7 +39,6 @@
 		056BEC9929237E66002D99CE /* Baekjoon_2110.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BEC9829237E66002D99CE /* Baekjoon_2110.swift */; };
 		0574BCF928E5640F00376808 /* Sol_118666.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0574BCF828E5640F00376808 /* Sol_118666.swift */; };
 		0574BCFB28E587DD00376808 /* Sol_118667.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0574BCFA28E587DD00376808 /* Sol_118667.swift */; };
-		05789C4B299213D800943924 /* App01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05789C4A299213D800943924 /* App01.swift */; };
 		057B81542927655000195AC8 /* Sol_87389.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057B81532927655000195AC8 /* Sol_87389.swift */; };
 		057B8156292765B500195AC8 /* Sol_133499.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057B8155292765B500195AC8 /* Sol_133499.swift */; };
 		057B815D29277ADE00195AC8 /* Sol_92335.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057B815C29277ADE00195AC8 /* Sol_92335.swift */; };
@@ -51,6 +50,9 @@
 		058497E0295AACDF00698F97 /* Baekjoon_15684.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058497DF295AACDF00698F97 /* Baekjoon_15684.swift */; };
 		058497E2295AC90400698F97 /* Baekjoon_2178.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058497E1295AC90400698F97 /* Baekjoon_2178.swift */; };
 		058497E4295C2AC300698F97 /* Baekjoon_14502.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058497E3295C2AC300698F97 /* Baekjoon_14502.swift */; };
+		058BD53F299338F90077D81C /* AutoEverTask01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058BD53E299338F90077D81C /* AutoEverTask01.swift */; };
+		058BD542299339180077D81C /* Mobility_Task01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058BD541299339180077D81C /* Mobility_Task01.swift */; };
+		058BD544299339200077D81C /* Mobility_Task02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058BD543299339200077D81C /* Mobility_Task02.swift */; };
 		0591F201290771060028E40A /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591F200290771060028E40A /* DFS.swift */; };
 		0591F203290777ED0028E40A /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591F202290777ED0028E40A /* Queue.swift */; };
 		0591F2052907783D0028E40A /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591F2042907783D0028E40A /* BFS.swift */; };
@@ -150,7 +152,6 @@
 		056BEC9829237E66002D99CE /* Baekjoon_2110.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_2110.swift; sourceTree = "<group>"; };
 		0574BCF828E5640F00376808 /* Sol_118666.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_118666.swift; sourceTree = "<group>"; };
 		0574BCFA28E587DD00376808 /* Sol_118667.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_118667.swift; sourceTree = "<group>"; };
-		05789C4A299213D800943924 /* App01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App01.swift; sourceTree = "<group>"; };
 		057B81532927655000195AC8 /* Sol_87389.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_87389.swift; sourceTree = "<group>"; };
 		057B8155292765B500195AC8 /* Sol_133499.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_133499.swift; sourceTree = "<group>"; };
 		057B815C29277ADE00195AC8 /* Sol_92335.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_92335.swift; sourceTree = "<group>"; };
@@ -163,6 +164,9 @@
 		058497DF295AACDF00698F97 /* Baekjoon_15684.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_15684.swift; sourceTree = "<group>"; };
 		058497E1295AC90400698F97 /* Baekjoon_2178.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_2178.swift; sourceTree = "<group>"; };
 		058497E3295C2AC300698F97 /* Baekjoon_14502.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_14502.swift; sourceTree = "<group>"; };
+		058BD53E299338F90077D81C /* AutoEverTask01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoEverTask01.swift; sourceTree = "<group>"; };
+		058BD541299339180077D81C /* Mobility_Task01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobility_Task01.swift; sourceTree = "<group>"; };
+		058BD543299339200077D81C /* Mobility_Task02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobility_Task02.swift; sourceTree = "<group>"; };
 		0591F200290771060028E40A /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
 		0591F202290777ED0028E40A /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		0591F2042907783D0028E40A /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
@@ -323,7 +327,7 @@
 		05789C47299213A000943924 /* AutoEver */ = {
 			isa = PBXGroup;
 			children = (
-				05789C4A299213D800943924 /* App01.swift */,
+				058BD53E299338F90077D81C /* AutoEverTask01.swift */,
 			);
 			path = AutoEver;
 			sourceTree = "<group>";
@@ -382,6 +386,15 @@
 				05D7AE54295E9E7F0071065E /* Baekjoon_2146.swift */,
 			);
 			path = "DFS&BFS";
+			sourceTree = "<group>";
+		};
+		058BD540299338FE0077D81C /* Mobility */ = {
+			isa = PBXGroup;
+			children = (
+				058BD541299339180077D81C /* Mobility_Task01.swift */,
+				058BD543299339200077D81C /* Mobility_Task02.swift */,
+			);
+			path = Mobility;
 			sourceTree = "<group>";
 		};
 		0591F1FF290770E40028E40A /* Category */ = {
@@ -457,6 +470,7 @@
 		C33A6F3226EF3534001AC96A /* CodingTest */ = {
 			isa = PBXGroup;
 			children = (
+				058BD540299338FE0077D81C /* Mobility */,
 				05789C47299213A000943924 /* AutoEver */,
 				C30918E328333A0F00BBA72D /* Memo.playground */,
 				C33A6F3326EF3534001AC96A /* main.swift */,
@@ -624,6 +638,7 @@
 				051606BF2970F5AE00A27FB7 /* Baekjoon_11054.swift in Sources */,
 				C30918EF2833834E00BBA72D /* Baekjoon_1946.swift in Sources */,
 				C3252464283B702D0029A63F /* Sol_42840.swift in Sources */,
+				058BD53F299338F90077D81C /* AutoEverTask01.swift in Sources */,
 				05190E532967B67500D62AC1 /* Fibonacci.swift in Sources */,
 				0521FD1A2977D15E0074FB75 /* Baekjoon_2193.swift in Sources */,
 				05C1983A282936F1005D8049 /* Sol_12948.swift in Sources */,
@@ -658,6 +673,7 @@
 				05D7AE55295E9E7F0071065E /* Baekjoon_2146.swift in Sources */,
 				C38F67A52840957E0054FCFF /* Sol_42839.swift in Sources */,
 				05D79F70293F1C750008154C /* Sequence.swift in Sources */,
+				058BD544299339200077D81C /* Mobility_Task02.swift in Sources */,
 				0574BCFB28E587DD00376808 /* Sol_118667.swift in Sources */,
 				0591F203290777ED0028E40A /* Queue.swift in Sources */,
 				05136DAE295303C400ECBCAA /* Baekjoon_14889.swift in Sources */,
@@ -682,7 +698,6 @@
 				05D79F72294029CC0008154C /* PrimeNumber.swift in Sources */,
 				05190E5729680A1500D62AC1 /* Baekjoon_2293.swift in Sources */,
 				F48B687E2765FC27004CC780 /* Sol_12911.swift in Sources */,
-				05789C4B299213D800943924 /* App01.swift in Sources */,
 				057B8156292765B500195AC8 /* Sol_133499.swift in Sources */,
 				05E9AF4728587E09005FFE57 /* Sol_72411.swift in Sources */,
 				05DCD37228327E840070B0F7 /* ReadLine.swift in Sources */,
@@ -690,6 +705,7 @@
 				05D79F6D293F16070008154C /* Combination.swift in Sources */,
 				C33C1CBD283B7BB000579B0C /* Baekjoon_1018.swift in Sources */,
 				C33C03ED275D915400124432 /* Two_Sum.swift in Sources */,
+				058BD542299339180077D81C /* Mobility_Task01.swift in Sources */,
 				053BF79A285C41B3002F5AA1 /* Sol_64065.swift in Sources */,
 				05B34D09298C9432006E87D0 /* FutureCity.swift in Sources */,
 				058497E4295C2AC300698F97 /* Baekjoon_14502.swift in Sources */,

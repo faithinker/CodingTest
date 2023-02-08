@@ -1,5 +1,5 @@
 //
-//  App01.swift
+//  AutoEverTask01.swift
 //  CodingTest
 //
 //  Created by jhkim on 2023/02/07.
@@ -34,7 +34,7 @@ import Foundation
  */
 
 
-class App01 {
+class AutoEverTask01 {
     
     
     func solution(_ n: Int, _ m: Int) {
@@ -51,14 +51,14 @@ class App01 {
                 j = k % (i + 1)
                 
                 arr.swapAt(i, j)
-                print("i:\(i) --- k:\(k) ==> j:\(j) @@@ \(arr)")
+                //print("i:\(i) --- k:\(k) ==> j:\(j) @@@ \(arr)")
                 count.updateValue((count[arr] ?? 0) + 1, forKey: arr)
                 arr = Array(0..<n)
             }
 
         }
         
-        print("count: \(count)")
+        //print("count: \(count)")
 
         count.forEach { key, value in
             let arraySum = key.map { String($0) }.joined()
