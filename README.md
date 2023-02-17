@@ -40,6 +40,10 @@
 - 92342 [양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342) - DFS + 탐색 + 그리디, 실패!!!
 - 92344 [파괴되지 않은 건물](https://school.programmers.co.kr/learn/courses/30/lessons/92344) - 효율성 + 누적합, 실패!!! 
 
+2022 KAKAO BLIND RECRUITMENT
+- 150370 [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370)
+
+
 ------------------------------------------------------------------------------------------------
 
 ## 백준
@@ -68,7 +72,7 @@
 - 백준 1110 브론즈1 [더하기 사이클](https://www.acmicpc.net/problem/1110)
 - 백준 7568 실버4 [덩치](https://www.acmicpc.net/problem/7568)    - 실패!
 
-### 이분 탐색
+### 이분(이진) 탐색
 - 1920 실버4 [수 찾기](https://www.acmicpc.net/problem/1920)
 - 2805 실버2 [나무 자르기](https://www.acmicpc.net/problem/2805)
 - 1654 실버2 [랜선 자르기](https://www.acmicpc.net/problem/1654)
@@ -93,10 +97,10 @@
 ### 구간합 구하기 (Prefix sum array, Segment Sum)
 - 11659 실버3 [구간 합 구하기 4](https://www.acmicpc.net/problem/11659)
 - 11660 실버1 [구간 합 구하기 5](https://www.acmicpc.net/problem/11660)
-- 3020 골드5 [개똥벌레](https://www.acmicpc.net/problem/3020) - TODO!! 해야함!
+- 3020 골드5 [개똥벌레](https://www.acmicpc.net/problem/3020) - 실패!
 
 
-### DP(Dynamic Programming)
+### DP(Dynamic Programming, 동적계획법) 
 - 1463 실버3 [1로 만들기](https://www.acmicpc.net/problem/1463)   - 실패!
 - 2293 골드4 [동전 1](https://www.acmicpc.net/problem/2293)     
 - 2294 골드4 [동전 2](https://www.acmicpc.net/problem/2294)
