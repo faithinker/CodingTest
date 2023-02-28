@@ -107,6 +107,7 @@
 - 2294 골드4 [동전 2](https://www.acmicpc.net/problem/2294)
 - 2193 실버3 [이친수](https://www.acmicpc.net/problem/2193)
 - 11048 실버2 [이동하기](https://www.acmicpc.net/problem/11048)
+- 11726 실버3 [2×n 타일링](https://www.acmicpc.net/problem/11726)
 
 ### LIS(Longest Increase Sequence) 가장 긴 증가하는 부분 수열
 - 11053 실버2 [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)
