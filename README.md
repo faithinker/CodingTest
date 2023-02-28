@@ -101,6 +101,7 @@
 
 
 ### DP(Dynamic Programming, 동적계획법) 
+- 9095 실버3 [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
 - 1463 실버3 [1로 만들기](https://www.acmicpc.net/problem/1463)   - 실패!
 - 2293 골드4 [동전 1](https://www.acmicpc.net/problem/2293)     
 - 2294 골드4 [동전 2](https://www.acmicpc.net/problem/2294)

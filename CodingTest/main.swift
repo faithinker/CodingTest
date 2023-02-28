@@ -55,15 +55,19 @@ import Foundation
 /// [백준 1065][실버4] 한수(https://www.acmicpc.net/problem/1065)
 /// [백준 14501][실버3] 퇴사(https://www.acmicpc.net/problem/14501)
 /// [백준 1018][실버5] 체스판 다시 칠하기(https://www.acmicpc.net/problem/1018)
-
 /// [프로그래머스 43165] 타겟넘버 https://school.programmers.co.kr/learn/courses/30/lessons/43165 - 깊이/너비 우선 탐색(DFS/BFS)
-
 /// [백준 16236][골드3] 아기 상어(https://www.acmicpc.net/problem/16236)
-
 /// => 구간합(누적합), 위상정렬 문제풀이
 
-
-// 부분 누적합!!!
+/// 부분 누적합!!!
 /// [백준 3020][골드5] 개똥벌레(https://www.acmicpc.net/problem/3020)
-// Baekjoon_3020
+/// Baekjoon_3020
+
+/// 중요 수칙사항!!
+/// 앞으로 ReadLine과 같은 특정 클래스를 만들지 않는다.
+/// 코딩테스트 시험을 볼 때 외부 자료를 못보게 하거나 아예 IDE도 쓰지 못하게 한다.
+/// 휴대폰과 노트북을 사용하여 캠으로 녹화를 한다. 그리고 모니터 화면도 한개만 쓰게 한다.
+/// 따라서 앞으로는 웹브라우져 IDE에서 연습하고 답안 및 풀이만 여기서 적도록 한다.
+
+
 
