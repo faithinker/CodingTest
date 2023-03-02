@@ -56,13 +56,14 @@
 - 백준 1946 실버1 [신입사원](https://www.acmicpc.net/problem/1946)  - 실패!
 - 백준 1715 골드4 [카드 정렬하기](https://www.acmicpc.net/problem/1715)  - 실패!
 
-### 브루트포스 알고리즘
+### 브루트포스 알고리즘(완전탐색)
 - 백준 1715 골드4 [카드 정렬하기](https://www.acmicpc.net/problem/1715)
 - 백준 2798 브론즈2 [블랙잭](https://www.acmicpc.net/problem/2798)  - 조합
 - 백준 1436 실버5 [영화감독 숌](https://www.acmicpc.net/problem/1436)
 - 백준 14889 실버2 [스타트와 링크](https://www.acmicpc.net/problem/14889) - 조합 순서 x
 - 14888 실버1 [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
 - 15684 골드3 [사다리 조작](https://www.acmicpc.net/problem/15684) - 실패!
+- 2309 브론즈1 [일곱 난쟁이](https://www.acmicpc.net/problem/2309) - 실패!
 
 ### 우선순위 큐(힙)
 - 백준 11279 실버2 [최대 힙](https://www.acmicpc.net/problem/11279)    - 실패!
