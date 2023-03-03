@@ -63,7 +63,7 @@
 - 백준 14889 실버2 [스타트와 링크](https://www.acmicpc.net/problem/14889) - 조합 순서 x
 - 14888 실버1 [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
 - 15684 골드3 [사다리 조작](https://www.acmicpc.net/problem/15684) - 실패!
-- 2309 브론즈1 [일곱 난쟁이](https://www.acmicpc.net/problem/2309) - 실패!
+- 2309 브론즈1 [일곱 난쟁이](https://www.acmicpc.net/problem/2309)
 
 ### 우선순위 큐(힙)
 - 백준 11279 실버2 [최대 힙](https://www.acmicpc.net/problem/11279)    - 실패!

@@ -13,37 +13,38 @@ class Baekjoon_2309 {
     
     func solution() {
         var arr = [Int]()
-        
+
         for _ in 0..<9 {
             arr.append(Int(readLine()!)!)
         }
 
-        let sum = arr.reduce(0, +) - 100
+        var stop = false // 답이 나오면 멈출 트리거 역할
+        
+        // 조합으로 뽑는다. 순서를 고려하지 않는다.
+        func cycle(_ index: Int, _ list: [Int]) {
+            if stop {
+                return
+            }
+            
+            if list.count == 7 {
+                let sum = list.reduce(0, +)
 
-        var stopTrigger = false
-
-        var (a, b) = (0, 0)
-
-        for i in 0..<arr.count-1 {
-            for j in i+1..<arr.count {
-                if sum == arr[i] + arr[j] {
-                    (a, b) = (arr[i], arr[j])
-                    stopTrigger = true
-                    break
+                if sum == 100 {
+                    for v in list.sorted() {
+                        print(v)
+                    }
+                    stop = true
+                    return
                 }
             }
-            if stopTrigger {
-                break
+
+            for i in index..<arr.count {
+                cycle(i+1, list + [arr[i]])
             }
         }
 
-        arr.remove(at: arr.firstIndex(of: a)!)
-        arr.remove(at: arr.firstIndex(of: b)!)
 
-
-        for v in arr.sorted() {
-            print(v)
-        }
+        cycle(0, [])
     }
 }
 
