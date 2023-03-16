@@ -109,6 +109,7 @@
 - 2193 실버3 [이친수](https://www.acmicpc.net/problem/2193)
 - 11048 실버2 [이동하기](https://www.acmicpc.net/problem/11048)
 - 11726 실버3 [2×n 타일링](https://www.acmicpc.net/problem/11726)
+- 14501 실버3 [퇴사](https://www.acmicpc.net/problem/14501) - 실패!
 
 ### LIS(Longest Increase Sequence) 가장 긴 증가하는 부분 수열
 - 11053 실버2 [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)
