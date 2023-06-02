@@ -9,11 +9,6 @@ import Foundation
 
 class BFS {
     
-    
-    init() {
-        
-    }
-    
     // 출처: https://nareunhagae.tistory.com/56
     func onlineTest() {
         let graph = [

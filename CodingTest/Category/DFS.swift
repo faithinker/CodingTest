@@ -9,11 +9,6 @@ import Foundation
 
 class DFS {
     
-    init() {
-        //print(GCD(a: 192, b: 162))
-    }
-    
-    
     // 유클리드 호제법 => 최대공약수 구하기
     func GCD(a: Int, b: Int) -> Int {
         let remainder = a % b
