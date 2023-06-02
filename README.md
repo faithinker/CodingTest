@@ -29,6 +29,8 @@
 
 - 프로그래머스 181188 [레벨 2] [요격 시스템](https://school.programmers.co.kr/learn/courses/30/lessons/181188) -  실패!
 
+- 프로그래머스 178871 [레벨 1] [달리기 경주](https://school.programmers.co.kr/learn/courses/30/lessons/178871)
+
 2022 KAKAO TECH INTERNSHIP
 
 - 118666 [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)
