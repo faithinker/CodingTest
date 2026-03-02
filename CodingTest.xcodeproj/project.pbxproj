@@ -93,6 +93,7 @@
 		05F5FF202F556AB10076E30A /* TreeHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F5FF1F2F556AB10076E30A /* TreeHeight.swift */; };
 		05F5FF222F55891A0076E30A /* ArrayInversionCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F5FF212F55891A0076E30A /* ArrayInversionCount.swift */; };
 		05F5FF242F5593430076E30A /* TennisTournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F5FF232F5593430076E30A /* TennisTournament.swift */; };
+		05F5FF262F55A6630076E30A /* SocksLaundering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F5FF252F55A6630076E30A /* SocksLaundering.swift */; };
 		C300F4512829F07E000E8624 /* Sol_68935.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300F4502829F07E000E8624 /* Sol_68935.swift */; };
 		C30918E22833394F00BBA72D /* Baekjoon_11399.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30918E12833394F00BBA72D /* Baekjoon_11399.swift */; };
 		C30918EF2833834E00BBA72D /* Baekjoon_1946.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30918EE2833834E00BBA72D /* Baekjoon_1946.swift */; };
@@ -223,6 +224,7 @@
 		05F5FF1F2F556AB10076E30A /* TreeHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeHeight.swift; sourceTree = "<group>"; };
 		05F5FF212F55891A0076E30A /* ArrayInversionCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayInversionCount.swift; sourceTree = "<group>"; };
 		05F5FF232F5593430076E30A /* TennisTournament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisTournament.swift; sourceTree = "<group>"; };
+		05F5FF252F55A6630076E30A /* SocksLaundering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocksLaundering.swift; sourceTree = "<group>"; };
 		C300F4502829F07E000E8624 /* Sol_68935.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_68935.swift; sourceTree = "<group>"; };
 		C30918E12833394F00BBA72D /* Baekjoon_11399.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_11399.swift; sourceTree = "<group>"; };
 		C30918E328333A0F00BBA72D /* Memo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Memo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -525,6 +527,7 @@
 				05F5FF1F2F556AB10076E30A /* TreeHeight.swift */,
 				05F5FF212F55891A0076E30A /* ArrayInversionCount.swift */,
 				05F5FF232F5593430076E30A /* TennisTournament.swift */,
+				05F5FF252F55A6630076E30A /* SocksLaundering.swift */,
 			);
 			path = Codility;
 			sourceTree = "<group>";
@@ -768,6 +771,7 @@
 				F4C80A11271AB6DE00CD72C4 /* Sol_86051.swift in Sources */,
 				05D79F742940827F0008154C /* Sol_92342.swift in Sources */,
 				058497E0295AACDF00698F97 /* Baekjoon_15684.swift in Sources */,
+				05F5FF262F55A6630076E30A /* SocksLaundering.swift in Sources */,
 				05DCD375283284DE0070B0F7 /* Baekjoon_11047.swift in Sources */,
 				05D7AE55295E9E7F0071065E /* Baekjoon_2146.swift in Sources */,
 				C38F67A52840957E0054FCFF /* Sol_42839.swift in Sources */,
