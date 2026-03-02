@@ -92,6 +92,7 @@
 		05F5FF1E2F556A470076E30A /* StrSymmetryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F5FF1D2F556A470076E30A /* StrSymmetryPoint.swift */; };
 		05F5FF202F556AB10076E30A /* TreeHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F5FF1F2F556AB10076E30A /* TreeHeight.swift */; };
 		05F5FF222F55891A0076E30A /* ArrayInversionCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F5FF212F55891A0076E30A /* ArrayInversionCount.swift */; };
+		05F5FF242F5593430076E30A /* TennisTournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F5FF232F5593430076E30A /* TennisTournament.swift */; };
 		C300F4512829F07E000E8624 /* Sol_68935.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300F4502829F07E000E8624 /* Sol_68935.swift */; };
 		C30918E22833394F00BBA72D /* Baekjoon_11399.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30918E12833394F00BBA72D /* Baekjoon_11399.swift */; };
 		C30918EF2833834E00BBA72D /* Baekjoon_1946.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30918EE2833834E00BBA72D /* Baekjoon_1946.swift */; };
@@ -221,6 +222,7 @@
 		05F5FF1D2F556A470076E30A /* StrSymmetryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrSymmetryPoint.swift; sourceTree = "<group>"; };
 		05F5FF1F2F556AB10076E30A /* TreeHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeHeight.swift; sourceTree = "<group>"; };
 		05F5FF212F55891A0076E30A /* ArrayInversionCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayInversionCount.swift; sourceTree = "<group>"; };
+		05F5FF232F5593430076E30A /* TennisTournament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisTournament.swift; sourceTree = "<group>"; };
 		C300F4502829F07E000E8624 /* Sol_68935.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol_68935.swift; sourceTree = "<group>"; };
 		C30918E12833394F00BBA72D /* Baekjoon_11399.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baekjoon_11399.swift; sourceTree = "<group>"; };
 		C30918E328333A0F00BBA72D /* Memo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Memo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -522,6 +524,7 @@
 				05F5FF1D2F556A470076E30A /* StrSymmetryPoint.swift */,
 				05F5FF1F2F556AB10076E30A /* TreeHeight.swift */,
 				05F5FF212F55891A0076E30A /* ArrayInversionCount.swift */,
+				05F5FF232F5593430076E30A /* TennisTournament.swift */,
 			);
 			path = Codility;
 			sourceTree = "<group>";
@@ -752,6 +755,7 @@
 				0542318B282F850F00C6E776 /* Baekjoon_5585.swift in Sources */,
 				C300F4512829F07E000E8624 /* Sol_68935.swift in Sources */,
 				05190E59296823FA00D62AC1 /* Baekjoon_2294.swift in Sources */,
+				05F5FF242F5593430076E30A /* TennisTournament.swift in Sources */,
 				05190E552967DFE600D62AC1 /* Baekjoon_1463.swift in Sources */,
 				056BEC8F29221B3F002D99CE /* Baekjoon_2805.swift in Sources */,
 				05B34D0C298CA975006E87D0 /* UnionFind.swift in Sources */,
